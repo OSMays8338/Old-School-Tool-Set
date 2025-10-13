@@ -1,0 +1,65 @@
+$c[//////////////////// Levels \\\\\\\\\\\\\\\\\\\\]
+
+$httpGet[https://api.wiseoldman.net/v2/players/$getVar[RSN;$authorID]]
+
+
+$title[Levels]
+$description[These are the levels for __**$httpResult[displayName]**__
+
+
+$addField[<:Stats_icon:1426867260483702884> $toUppercase[**$httpResult[latestSnapshot;data;skills;overall;metric]**];> $httpResult[latestSnapshot;data;skills;overall;level];false;1]
+
+$addField[<:Attack:1426866762078617600> $toUppercase[**$httpResult[latestSnapshot;data;skills;attack;metric]**];> $httpResult[latestSnapshot;data;skills;attack;level];true;1]
+
+$addField[<:Defence:1426866880022315128> $toUppercase[**$httpResult[latestSnapshot;data;skills;defence;metric]**];> $httpResult[latestSnapshot;data;skills;defence;level];true;1]
+
+$addField[<:Strength:1426867206192496650> $toUppercase[**$httpResult[latestSnapshot;data;skills;strength;metric]**];> $httpResult[latestSnapshot;data;skills;strength;level];true;1]
+
+$addField[<:Hitpoints:1426866995089113138> $toUppercase[**$httpResult[latestSnapshot;data;skills;hitpoints;metric]**];> $httpResult[latestSnapshot;data;skills;hitpoints;level];true;1]
+
+$addField[<:Ranged:1426867098503876699> $toUppercase[**$httpResult[latestSnapshot;data;skills;ranged;metric]**];> $httpResult[latestSnapshot;data;skills;ranged;level];true;1]
+
+$addField[<:Prayer:1426867077632753706> $toUppercase[**$httpResult[latestSnapshot;data;skills;prayer;metric]**];> $httpResult[latestSnapshot;data;skills;prayer;level];true;1]
+
+$addField[<:Magic:1426867031034167296> $toUppercase[**$httpResult[latestSnapshot;data;skills;magic;metric]**];> $httpResult[latestSnapshot;data;skills;magic;level];true;1]
+
+$addField[<:Cooking:1426866800657694770> $toUppercase[**$httpResult[latestSnapshot;data;skills;cooking;metric]**];> $httpResult[latestSnapshot;data;skills;cooking;level];true;1]
+
+$addField[<:Woodcutting:1426867242896855122> $toUppercase[**$httpResult[latestSnapshot;data;skills;woodcutting;metric]**];> $httpResult[latestSnapshot;data;skills;woodcutting;level];true;1]
+
+$addField[<:Fletching:1426866943260102727> $toUppercase[**$httpResult[latestSnapshot;data;skills;fletching;metric]**];> $httpResult[latestSnapshot;data;skills;fletching;level];true;1]
+
+$addField[<:Fishing:1426866930685448303> $toUppercase[**$httpResult[latestSnapshot;data;skills;fishing;metric]**];> $httpResult[latestSnapshot;data;skills;fishing;level];true;1]
+
+$addField[<:Firemaking:1426866914667401276> $toUppercase[**$httpResult[latestSnapshot;data;skills;firemaking;metric]**];> $httpResult[latestSnapshot;data;skills;firemaking;level];true;1]
+
+$addField[<:Crafting:1426866815329636352> $toUppercase[**$httpResult[latestSnapshot;data;skills;crafting;metric]**];> $httpResult[latestSnapshot;data;skills;crafting;level];true;1]
+
+$addField[<:Smithing:1426867179940352041> $toUppercase[**$httpResult[latestSnapshot;data;skills;smithing;metric]**];> $httpResult[latestSnapshot;data;skills;smithing;level];true;1]
+
+$addField[<:Mining:1426867055587627090> $toUppercase[**$httpResult[latestSnapshot;data;skills;mining;metric]**];> $httpResult[latestSnapshot;data;skills;mining;level];true;1]
+
+$addField[<:Herblore:1426866970237865984> $toUppercase[**$httpResult[latestSnapshot;data;skills;herblore;metric]**];> $httpResult[latestSnapshot;data;skills;herblore;level];true;1]
+
+$addField[<:Agility:1426866718604656650> $toUppercase[**$httpResult[latestSnapshot;data;skills;agility;metric]**];> $httpResult[latestSnapshot;data;skills;agility;level];true;1]
+
+$addField[<:Thieving:1426867230192304179> $toUppercase[**$httpResult[latestSnapshot;data;skills;thieving;metric]**];> $httpResult[latestSnapshot;data;skills;thieving;level];true;1]
+
+$addField[<:Slayer:1426867153579151423> $toUppercase[**$httpResult[latestSnapshot;data;skills;slayer;metric]**];> $httpResult[latestSnapshot;data;skills;slayer;level];true;1]
+
+$addField[<:Farming:1426866895604158525> $toUppercase[**$httpResult[latestSnapshot;data;skills;farming;metric]**];> $httpResult[latestSnapshot;data;skills;farming;level];true;1]
+
+$addField[<:Runecraft:1426867127477997668> $toUppercase[**$httpResult[latestSnapshot;data;skills;runecrafting;metric]**];> $httpResult[latestSnapshot;data;skills;runecrafting;level];true;1]
+
+$addField[<:Hunter:1426867011928985651> $toUppercase[**$httpResult[latestSnapshot;data;skills;hunter;metric]**];> $httpResult[latestSnapshot;data;skills;hunter;level];true;1]
+
+$addField[<:Construction:1426866781049585786> $toUppercase[**$httpResult[latestSnapshot;data;skills;construction;metric]**];> $httpResult[latestSnapshot;data;skills;construction;level];true;1]
+
+
+
+] 
+
+$thumbnail[$userAvatar[$authorID];1]
+$footer[This is only a test! $addTimestamp
+]
+$color[#D8A63B]

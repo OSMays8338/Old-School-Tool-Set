@@ -1,0 +1,10 @@
+$c[//////////////////// Purge \\\\\\\\\\\\\\\\\\\\]
+
+$clear $nomention $deletecommand
+$title[**Purge**]
+$color[#191919]
+$footer[$username - $authorID]
+$footerIcon[$authorAvatar]
+$thumbnail[$authorAvatar]
+$description[**$message messages have been deleted!**]
+$addReactions[🤖]

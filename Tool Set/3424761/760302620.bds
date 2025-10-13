@@ -1,0 +1,10 @@
+$c[//////////////////// RSN \\\\\\\\\\\\\\\\\\\\]
+
+$nomention
+$changeUsername[$noMentionMessage]
+
+$setVar[RSN;$noMentionMessage;$authorID]
+Successfully updated your Account Name!
+ 
+$c[Updates the variable for the user in all servers.]
+ 

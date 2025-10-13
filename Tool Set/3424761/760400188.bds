@@ -1,0 +1,15 @@
+$c[//////////////////// Clan Information \\\\\\\\\\\\\\\\\\\\]
+
+$httpGet[https://api.wiseoldman.net/v2/groups/$getVar[ClanID]] 
+
+$title[Clan Information;1]
+$description[Clan Name: $httpResult[name]
+ID: $httpResult[id]
+Homeworld: $httpResult[homeworld]
+
+Member Count: $httpResult[memberCount]
+
+;1]
+
+$footer[This is only a test! $addTimestamp]
+$color[#D8A63B]
