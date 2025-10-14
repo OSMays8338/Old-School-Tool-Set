@@ -1,10 +1,7 @@
-$c[//////////////////// RSN \\\\\\\\\\\\\\\\\\\\]
-
 $nomention
-$changeUsername[$noMentionMessage]
+$onlyForRoles[Member;You need to be a Member to use this]
 
-$setVar[RSN;$noMentionMessage;$authorID]
-Successfully updated your Account Name!
- 
-$c[Updates the variable for the user in all servers.]
- 
+$setUserVar[RSN;$message[name];$authorID]
+
+
+> Thank you for providing your Account Name. 

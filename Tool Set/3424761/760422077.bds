@@ -1,0 +1,12 @@
+$nomention
+$httpGet[https://api.wiseoldman.net/v2/players/$getVar[RSN;$authorID]] 
+
+$title[Account Profile]
+$description[This is the profile for __**$httpResult[displayName]**__
+
+$addField[
+        <:Construction:1426866781049585786> $toUppercase[**$httpResult[latestSnapshot;data;skills;construction;metric]**];
+        > Level: $httpResult[latestSnapshot;data;skills;construction;level]
+        > Rank: $numberSeparator[$httpResult[latestSnapshot;data;skills;construction;rank];,]
+        > XP: $numberSeparator[$httpResult[latestSnapshot;data;skills;construction;xp];,]
+        ;true;1]

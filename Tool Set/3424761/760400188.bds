@@ -1,6 +1,5 @@
-$c[//////////////////// Clan Information \\\\\\\\\\\\\\\\\\\\]
-
-$httpGet[https://api.wiseoldman.net/v2/groups/$getVar[ClanID]] 
+$nomention 
+$httpGet[https://api.wiseoldman.net/v2/groups/$getVar[ClanID]]
 
 $title[Clan Information;1]
 $description[Clan Name: $httpResult[name]

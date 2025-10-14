@@ -1,0 +1,29 @@
+$var[\n;$url[decode;%0A]]
+
+
+
+$color[#145300]
+$thumbnail[$serverIcon]
+$footer[This is only a test]
+
+$title[Welcome $serverName[$guildID]]
+$description[
+### Founded:
+Sep. 5th of 2025
+
+__**Bonded4Life**__
+is growing to be a thriving Community of ppl who believe in one thing
+We are Bonded4Life
+
+
+### Members, please wait for approval... 
+]
+
+
+$sendEmbedMessage[1403314447430455419 ;;Sign-in;;## Book of Echos$var[\n]
+
+__**Name**__:$var[\n]
+$username$var[\n]
+
+__**Member Count**__:$var[\n]
+$membersCount$var[\n];#145300;;;This is a Test;;$authorAvatar;;true;false] 

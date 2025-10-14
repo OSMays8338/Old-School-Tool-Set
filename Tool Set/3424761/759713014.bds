@@ -1,7 +1,8 @@
 $c[//////////////////// Purge \\\\\\\\\\\\\\\\\\\\]
+$onlyAdmin[You need Admin perms.]
 
 $clear $nomention $deletecommand
-$title[**Purge**]
+$title[**Purge Messages**]
 $color[#191919]
 $footer[$username - $authorID]
 $footerIcon[$authorAvatar]
