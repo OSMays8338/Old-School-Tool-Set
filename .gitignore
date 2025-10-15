@@ -2,4 +2,4 @@
 .vscode/
 
 # Ignore the root-level Images folder (local assets, screenshots, etc.)
-Images/
+/Images/
