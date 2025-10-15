@@ -1,3 +1,5 @@
+$c[PROFILE COMMAND]
+
 $nomention
 $httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]] 
 

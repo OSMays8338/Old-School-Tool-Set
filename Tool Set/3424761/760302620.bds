@@ -1,7 +1,17 @@
+$c[RSN COMMAND]
+
 $nomention
 $onlyForRoles[Member;You need to be a Member to use this]
 
 $setUserVar[RSN;$message[name];$authorID]
 
+$title[Update Successful]
+$description[***$username***, 
+Thank you for providing your Account Name.
 
-> Thank you for providing your Account Name. 
+You will now be known as:
+**$getUserVar[RSN]**
+]
+
+$footer[$getVar[footer] $addTimestamp]
+$color[#D8A63B] 
