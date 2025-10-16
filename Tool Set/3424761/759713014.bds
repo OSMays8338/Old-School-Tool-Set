@@ -1,4 +1,6 @@
-$c[//////////////////// Purge \\\\\\\\\\\\\\\\\\\\]
+$c[Purge]
+
+$c[This command can only be used by Admin.]
 $onlyAdmin[You need Admin perms.]
 
 $clear $nomention $deletecommand

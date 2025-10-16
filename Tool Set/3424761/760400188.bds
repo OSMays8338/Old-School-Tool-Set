@@ -1,6 +1,15 @@
 $nomention 
+
+$c[API Call]
 $httpGet[https://api.wiseoldman.net/v2/groups/$getVar[ClanID]]
 
+
+$c[Footer]
+$thumbnail[$userAvatar[$authorID];1]
+$footer[$getVar[footer] $addTimestamp]
+$color[#D8A63B]
+
+$c[Body]
 $title[Clan Information;1]
 $description[Clan Name: $httpResult[name]
 ID: $httpResult[id]
@@ -10,5 +19,4 @@ Member Count: $httpResult[memberCount]
 
 ;1]
 
-$footer[This is only a test! $addTimestamp]
-$color[#D8A63B]
+

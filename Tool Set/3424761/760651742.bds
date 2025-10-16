@@ -1,3 +1,10 @@
 $c[RANK REQUEST COMMAND]
 
 $nomention
+
+$c[API Call]
+$httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]] 
+
+
+
+$if[$httpResult[latestSnapshot;data;skills;overall;level];>=;750]

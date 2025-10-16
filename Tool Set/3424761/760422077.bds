@@ -1,6 +1,8 @@
 $c[STATS COMMAND]
 
 $nomention
+
+$c[API Call]
 $httpGet[https://api.wiseoldman.net/v2/players/$getVar[RSN;$authorID]] 
 
 $title[Account Profile]

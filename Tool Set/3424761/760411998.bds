@@ -1,11 +1,12 @@
+$c[Newline Variable]
 $var[\n;$url[decode;%0A]]
 
-
-
+$c[Body]
 $color[#145300]
 $thumbnail[$serverIcon]
 $footer[This is only a test]
 
+$c[Welcome Body]
 $title[Welcome $serverName[$guildID]]
 $description[
 ### Founded:
@@ -19,7 +20,7 @@ We are Bonded4Life
 ### Members, please wait for approval... 
 ]
 
-
+$c[Book of Echos Body]
 $sendEmbedMessage[1403314447430455419 ;;Sign-in;;## Book of Echos$var[\n]
 
 __**Name**__:$var[\n]
