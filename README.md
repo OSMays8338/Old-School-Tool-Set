@@ -2,7 +2,7 @@
 
 
 <details>
-  <summary>__**Utilities**__</summary>
+  <summary>Utilities</summary>
   <p align="center">
 - Administrator Commands
 - Server Moderation 
@@ -14,7 +14,7 @@
 
 
 <details>
-  <summary>The Home of the __**Slayer Diaries**__ </summary>
+  <summary>The Home of the Slayer Diaries</summary>
   <p align="center">
 The Slayer Diaries is a command system that provides details about your specified ***Slayer Monster*** on task, 
 Including:
