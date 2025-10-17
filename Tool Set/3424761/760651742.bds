@@ -1,101 +1,189 @@
-$nomention
 $onlyForRoles[Member;:x: You need to be a Member to use this!]
+
+$c[Newline Variable]
+$var[\n;$url[decode;%0A]]
 
 $httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]]
 
-$c[Get the player level]
-$var[level;$httpResult[latestSnapshot;data;skills;overall;level]]
 
-$c[Get the player experience]
+$var[level;$httpResult[latestSnapshot;data;skills;overall;level]]
 $var[experience;$httpResult[latestSnapshot;data;skills;overall;experience]]
 
 
-$c[Now we check in order from highest to lowest]
-
+$c[Gem Ranks]
 $if[$var[experience]>=1000000000]
-$c[Add Zenyte Role]$roleGrant[$authorID;+1428594953746911324]
-$c[Renove Dragonstone Role]$roleGrant[$authorID;-1428594912353583114]
+$roleGrant[$authorID;+1428594953746911324]
+$roleGrant[$authorID;-1428594912353583114]
 > You have received the **Zenyte** rank!
 
-$c[Dragonstone]
 $elseif[$var[experience]>=750000000]
-$c[Add Dragonstone Role]$roleGrant[$authorID;+1428594912353583114]
-$c[Remove Dragon Role]$roleGrant[$authorID;-1428594746535841867]
+$roleGrant[$authorID;+1428594912353583114]
+$roleGrant[$authorID;-1428594746535841867]
 > You have received the **Dragonstone** rank!
 
-$c[Dragon]
+
+
+$c[Metal Ranks]
 $elseif[$var[experience]>=500000000]
-$c[Add Dragon Role]$roleGrant[$authorID;+1428594746535841867]
-$c[Remove Rune Role]$roleGrant[$authorID;-1428594622283907134]
+$roleGrant[$authorID;+1428594746535841867]
+$roleGrant[$authorID;-1428594622283907134]
 > You have received the **Dragon Bar** rank!
 
-$c[Rune Bar]
 $elseif[$var[experience]>=300000000]
-$c[Add Rune Role]$roleGrant[$authorID;+1428594622283907134]
-$c[Remove Adamant Role]$roleGrant[$authorID;-1428594558299541505]
+$roleGrant[$authorID;+1428594622283907134]
+$$roleGrant[$authorID;-1428594558299541505]
 > You have received the **Rune Bar** rank!
 
-$c[Adamant Bar]
 $elseif[$var[experience]>=200000000]
-$c[Add Adamant Role]$roleGrant[$authorID;+1428594558299541505]
-$c[Remove Mithril Role]$roleGrant[$authorID;-1428594443694379028]
+$roleGrant[$authorID;+1428594558299541505]
+$roleGrant[$authorID;-1428594443694379028]
 > You have received the **Adamant Bar** rank!
 
-$c[Mithril Bar]
 $elseif[$var[experience]>=100000000]
-$c[Add Mithril Role]$roleGrant[$authorID;+1428594443694379028]
-$c[Remove Steel Role]$roleGrant[$authorID;-1428594309862789141]
+$roleGrant[$authorID;+1428594443694379028]
+$roleGrant[$authorID;-1428594309862789141]
 > You have received the **Mithril Bar** rank!
 
-$c[Steel Bar]
 $elseif[$var[experience]>=50000000]
-$c[Add Steel Role]$roleGrant[$authorID;+1428594309862789141]
-$c[Remove Bronze Role]$roleGrant[$authorID;-1428582506575429642]
+$roleGrant[$authorID;+1428594309862789141]
+$roleGrant[$authorID;-1428582506575429642]
 > You have received the **Steel Bar** rank!
 
-$c[Iron Bar]
 $elseif[$var[experience]>=25000000]
-$c[Add Iron Role]$roleGrant[$authorID;+1428582506575429642]
-$c[Remove Bronze Role]$roleGrant[$authorID;-1428579629605847253]
+$roleGrant[$authorID;+1428582506575429642]
+$roleGrant[$authorID;-1428579629605847253]
 > You have received the **Iron Bar** rank!
 
-$c[Bronze Bar]
 $elseif[$var[experience]>=10000000]
-$c[Add Bronze Role]$roleGrant[$authorID;+1428579629605847253]
-$c[Remove Magic Role]$roleGrant[$authorID;-1428531990969323651]
+$roleGrant[$authorID;+1428579629605847253]
+$roleGrant[$authorID;-1428531990969323651]
 > You have received the **Bronze Bar** rank!
 
 
-$c[///// Tree Ranks \\\\\]
-
-$c[Magic Tree]
+$c[Tree Ranks]
 $elseif[$var[level]>=1750]
-$c[Add Magic Role]$roleGrant[$authorID;+1428531990969323651]
-$c[Remove Yew Role]$roleGrant[$authorID;-1428531909906006137]
+$roleGrant[$authorID;+1428531990969323651]
+$roleGrant[$authorID;-1428531909906006137]
 > You have received the **Magic Tree** rank!
 
-$c[Yew Tree]
 $elseif[$var[level]>=1500]
-$c[Add Yew Role]$roleGrant[$authorID;+1428531909906006137]
-$c[Remove Maple Role]$roleGrant[$authorID;-1425217838175486003]
+$roleGrant[$authorID;+1428531909906006137]
+$roleGrant[$authorID;-1425217838175486003]
 > You have received the **Yew Tree** rank!
 
-$c[Maple]
 $elseif[$var[level]>=1250]
-$c[Add Maple Role]$roleGrant[$authorID;+1425217838175486003]
-$c[Remove Willow Role]$roleGrant[$authorID;-1425214020318789737]
+$roleGrant[$authorID;+1425217838175486003]
+$roleGrant[$authorID;-1425214020318789737]
 > You have received the **Maple Tree** rank!
+$onlyForRoles[Member;:x: You need to be a Member to use this!]
 
-$c[Willow Tree]
+$c[Newline Variable]
+$var[\n;$url[decode;%0A]]
+
+$httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]]
+
+
+$var[level;$httpResult[latestSnapshot;data;skills;overall;level]]
+$var[experience;$httpResult[latestSnapshot;data;skills;overall;experience]]
+
+
+$c[Gem Ranks]
+$if[$var[experience]>=1000000000]
+$roleGrant[$authorID;+1428594953746911324]
+$roleGrant[$authorID;-1428594912353583114]
+> You have received the **Zenyte** rank!
+
+$elseif[$var[experience]>=750000000]
+$roleGrant[$authorID;+1428594912353583114]
+$roleGrant[$authorID;-1428594746535841867]
+> You have received the **Dragonstone** rank!
+
+
+
+$c[Metal Ranks]
+$elseif[$var[experience]>=500000000]
+$roleGrant[$authorID;+1428594746535841867]
+$roleGrant[$authorID;-1428594622283907134]
+> You have received the **Dragon Bar** rank!
+
+$elseif[$var[experience]>=300000000]
+$roleGrant[$authorID;+1428594622283907134]
+$$roleGrant[$authorID;-1428594558299541505]
+> You have received the **Rune Bar** rank!
+
+$elseif[$var[experience]>=200000000]
+$roleGrant[$authorID;+1428594558299541505]
+$roleGrant[$authorID;-1428594443694379028]
+> You have received the **Adamant Bar** rank!
+
+$elseif[$var[experience]>=100000000]
+$roleGrant[$authorID;+1428594443694379028]
+$roleGrant[$authorID;-1428594309862789141]
+> You have received the **Mithril Bar** rank!
+
+$elseif[$var[experience]>=50000000]
+$roleGrant[$authorID;+1428594309862789141]
+$roleGrant[$authorID;-1428582506575429642]
+> You have received the **Steel Bar** rank!
+
+$elseif[$var[experience]>=25000000]
+$roleGrant[$authorID;+1428582506575429642]
+$roleGrant[$authorID;-1428579629605847253]
+> You have received the **Iron Bar** rank!
+
+$elseif[$var[experience]>=10000000]
+$roleGrant[$authorID;+1428579629605847253]
+$roleGrant[$authorID;-1428531990969323651]
+> You have received the **Bronze Bar** rank!
+
+
+$c[Tree Ranks]
+$elseif[$var[level]>=1750]
+$roleGrant[$authorID;+1428531990969323651]
+$roleGrant[$authorID;-1428531909906006137]
+> You have received the **Magic Tree** rank!
+
+$elseif[$var[level]>=1500]
+$roleGrant[$authorID;+1428531909906006137]
+$roleGrant[$authorID;-1425217838175486003]
+> You have received the **Yew Tree** rank!
+
+
+$c[\\\\\ Maple Tree /////]
+$elseif[$var[level]>=1250]
+$roleGrant[$authorID;+1425217838175486003]
+$roleGrant[$authorID;-1425214020318789737]
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Maple Tree**__ rank!]
+
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[\\\\\ Willow Tree /////]
 $elseif[$var[level]>=1000]
-$c[Add WIllow Role]$roleGrant[$authorID;+1425217838175486003]
-$c[Remove Oak Role]$roleGrant[$authorID;-1425214020318789737]
-> You have received the **Willow Tree** rank!
+$roleGrant[$authorID;+1425217838175486003]
+$roleGrant[$authorID;-1425214020318789737]
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Willow Tree**__ rank!]
 
-$c[Oak Tree]
+$c[Footer]
+$thumbnail[https://gyazo.com/3d255113a0cd5142003fedc10f464602.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[\\\\\ Oak Tree /////]
 $elseif[$var[level]>=750]
-$c[Add Oak Role]$roleGrant[$authorID;+1425214020318789737]
-> You have received the **Oak Tree** rank!
-$else
+$roleGrant[$authorID;+1425214020318789737]
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Oak Tree**__ rank!]
+
+$c[Footer]
+$thumbnail[https://gyazo.com/96b7136f460b0a42909a99dfb1dd4b0c.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$else 
 > You do not yet qualify for any rank.
 $endif
