@@ -4,11 +4,11 @@
 <details>
   <summary>Utilities</summary>
   <p align="center">
-    - Administrator Commands<br>
-    - Server Moderation<br>
-    - Clan Resources `[powered by W.O.M.]`<br>
-    - Chat Leveling System<br>
-    - Economy System
+    • Administrator Commands<br>
+    • Server Moderation<br>
+    • Clan Resources `[powered by W.O.M.]`<br>
+    • Chat Leveling System<br>
+    • Economy System
   </p>
 </details>
 
