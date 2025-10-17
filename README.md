@@ -1,6 +1,6 @@
 # Old School Tool Set
 
-**Utilities**
+__**Utilities**__
 - Administrator Commands
 - Server Moderation 
 - Clan Resources `[powered by W.O.M.]`
