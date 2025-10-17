@@ -4,7 +4,7 @@
 <details>
   <summary>Utilities</summary>
   <p align="center">
-- Administrator Commands
+- Administrator Commands\n
 - Server Moderation 
 - Clan Resources `[powered by W.O.M.]`
 - Chat Leveling System 
