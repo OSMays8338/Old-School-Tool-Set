@@ -4,14 +4,13 @@
 <details>
   <summary>Utilities</summary>
   <p align="center">
-- Administrator Commands\n
-- Server Moderation 
-- Clan Resources `[powered by W.O.M.]`
-- Chat Leveling System 
-- Economy System 
+    - Administrator Commands<br>
+    - Server Moderation<br>
+    - Clan Resources `[powered by W.O.M.]`<br>
+    - Chat Leveling System<br>
+    - Economy System
   </p>
-</details> 
-
+</details>
 
 <details>
   <summary>The Home of the Slayer Diaries</summary>
