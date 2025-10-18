@@ -1,4 +1,19 @@
-$c[Purge]
+$c[───────────────────────────────────────────────────────────────
+//  Old School Tool Set (OSTS)
+//  License: Old School Tool Set License v1.0
+//  © 2025 OS-Mays8338 | All Rights Reserved
+//
+//  Built for Bot Designer For Discord (.bds)
+//  Utilizes the Wise Old Man API (https://wiseoldman.net)
+//  Incorporates content from the Old School RuneScape Wiki
+//  (https://oldschool.runescape.wiki) under CC BY-SA 3.0
+//
+//  Old School RuneScape and related assets are trademarks of Jagex Ltd.
+//  This project is unaffiliated with Jagex, the OSRS Wiki, or Bot Designer For Discord.
+//
+//  See the full license for details:
+//  https://github.com/OS-Mays8338
+───────────────────────────────────────────────────────────────────]$c[Purge]
 
 $c[This command can only be used by Admin.]
 $onlyAdmin[You need Admin perms.]
