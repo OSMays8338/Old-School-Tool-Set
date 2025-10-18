@@ -28,53 +28,119 @@ $var[experience;$httpResult[latestSnapshot;data;skills;overall;experience]]
 
 
 $c[Gem Ranks]
+
+$c[Zenyte]
 $if[$var[experience]>=1000000000]
 $roleGrant[$authorID;+1428594953746911324]
 $roleGrant[$authorID;-1428594912353583114]
-> You have received the **Zenyte** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Zenyte**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[Dragonstone]
 $elseif[$var[experience]>=750000000]
 $roleGrant[$authorID;+1428594912353583114]
 $roleGrant[$authorID;-1428594746535841867]
-> You have received the **Dragonstone** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Dragonstone**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
 
 
 $c[Metal Ranks]
+
+$c[Dragon]
 $elseif[$var[experience]>=500000000]
 $roleGrant[$authorID;+1428594746535841867]
 $roleGrant[$authorID;-1428594622283907134]
-> You have received the **Dragon Bar** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Dragon**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[Rune Bar]
 $elseif[$var[experience]>=300000000]
 $roleGrant[$authorID;+1428594622283907134]
 $$roleGrant[$authorID;-1428594558299541505]
-> You have received the **Rune Bar** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Rune Bar**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[Adamant Bar]
 $elseif[$var[experience]>=200000000]
 $roleGrant[$authorID;+1428594558299541505]
 $roleGrant[$authorID;-1428594443694379028]
-> You have received the **Adamant Bar** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Adamant Bar**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[Mithril Bar]
 $elseif[$var[experience]>=100000000]
 $roleGrant[$authorID;+1428594443694379028]
 $roleGrant[$authorID;-1428594309862789141]
-> You have received the **Mithril Bar** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Mithril Bar**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[Steel Bar]
 $elseif[$var[experience]>=50000000]
 $roleGrant[$authorID;+1428594309862789141]
 $roleGrant[$authorID;-1428582506575429642]
-> You have received the **Steel Bar** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Steel Bar**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+$c[Iron Bar]
 $elseif[$var[experience]>=25000000]
 $roleGrant[$authorID;+1428582506575429642]
 $roleGrant[$authorID;-1428579629605847253]
-> You have received the **Iron Bar** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Iron Bar**__ rank!]
 
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
+
+$c[Bronze Bar]
 $elseif[$var[experience]>=10000000]
 $roleGrant[$authorID;+1428579629605847253]
 $roleGrant[$authorID;-1428531990969323651]
-> You have received the **Bronze Bar** rank!
+$title[Rank Request]
+$description[$nickname,$var[\n]$var[\n]> You have received the __**Bronze Bar**__ rank!]
+
+$c[Footer]
+$thumbnail[.png]
+$footer[$addTimestamp]
+$color[#D8A63B]
+
 
 $c[TREES]
 
