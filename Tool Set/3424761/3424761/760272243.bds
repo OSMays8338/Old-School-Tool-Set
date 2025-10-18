@@ -6,7 +6,7 @@ $c[API Call]
 $httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]] 
 
 $c[Footer]
-$thumbnail[$userAvatar[$authorID];1
+$thumbnail[$userAvatar[$authorID]]
 $footer[This is only a test! ]
 $color[#D8A63B]
 
