@@ -1,7 +1,5 @@
 # Old School Tool Set
 
----
-
 <details>
   <summary>Utilities</summary>
   <p align="center">
@@ -18,12 +16,13 @@
   <p align="left">
 The Slayer Diaries is a command system that provides details about your specified ***Slayer Monster*** on task, <br>
 Including:<br><br>
-```<br>
+
+
 🟢 Standard Monsters<br>
 🟣 Variants<br>
 🔺 Superiors<br>
-👑 Bosses<br>
-```<br><br>
+👑 Bosses<br><br>
+
 With useful information like <br>
 - Locations <br>
 - Key drops<br>
