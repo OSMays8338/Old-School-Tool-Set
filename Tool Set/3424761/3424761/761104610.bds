@@ -23,14 +23,14 @@ $description[This Help Menu is based on your roles.....
 Cmds are only visible up to your highest role.]
 
 $if[$hasRole[$authorID;1399092953498255460]]
- $addField[__**Owner Cmds**__;```
-• /announce     •  /reason
-• /approval     •  /tidy
-• /ban          •  /unban
-• /kick         •  /unmute
-• /mute         •  /warn
-• /pardon       •  /say
- ```;false;1]
+ $addField[__**Owner Cmds**__;**```
+• /announce       •  /reason
+• /approval       •  /tidy
+• /ban            •  /unban
+• /kick           •  /unmute
+• /mute           •  /warn
+• /pardon         •  /say
+ ```**;false;1]
 
 $c[Footer]
     $thumbnail[$serverIcon]
@@ -39,14 +39,14 @@ $c[Footer]
      $endif
 
  $if[$hasRole[$authorID;1399093247464181781]==true]
-    $addField[__**Deputy Owners Cmds**__ ; ```
-• /announce     •  /reason
-• /approval     •  /tidy
-• /ban          •  /unban
-• /kick         •  /unmute
-• /mute         •  /warn
-• /pardon       •  /say
- ```;false;1]
+    $addField[__**Deputy Owners Cmds**__ ;**```
+• /announce       •  /reason
+• /approval       •  /tidy
+• /ban            •  /unban
+• /kick           •  /unmute
+• /mute           •  /warn
+• /pardon         •  /say
+ ```**;false;1]
 
 $c[Footer]
     $thumbnail[$serverIcon]
@@ -55,14 +55,14 @@ $c[Footer]
      $endif
 
 $if[$hasRole[$authorID;1399096694427226122]==true]
-    $addField[__**Cabinet Cmds**__;```
-• /announce     •  /reason
-• /approval     •  /tidy
-• /ban          •  /unban
-• /kick         •  /unmute
-• /mute         •  /warn
-• /pardon       •  /say
- ```;false;1]
+    $addField[__**Cabinet Cmds**__;**```
+• /announce       •  /reason
+• /approval       •  /tidy
+• /ban            •  /unban
+• /kick           •  /unmute
+• /mute           •  /warn
+• /pardon         •  /say
+ ```**;false;1]
 
 $c[Footer]
     $thumbnail[$serverIcon]
@@ -71,14 +71,30 @@ $c[Footer]
      $endif
 
 $if[$hasRole[$authorID;1399093446748405881]==true]
-    $addField[__**OSTS Cmds**__;```
-• /about        •  /rank
-• /clan         •  /rsn
-• /clanid       •  /stats
-• /help         •  /tidy
-• /lvls         •  /uptime
-• /profile      •  /vote
- ```;false;1]
+    $addField[__**OSTS Cmds**__;**```
+• /about          •  /rank
+• /clan           •  /rsn
+• /clanid         •  /stats
+• /help           •  /tidy
+• /lvls           •  /uptime
+• /profile        •  /vote
+ ```**;false;1]
+ 
+$c[Footer]
+    $thumbnail[$serverIcon]
+    $footer[This is only a test! ]
+    $color[#D8A63B]
+    $endif
+
+
+
+$if[$hasRole[$authorID;1399139265723764776]==true]
+    $addField[__**Guest Limited Access**__
+__**OSTS Cmds**__;**```
+• /about  
+• /clan 
+• /help           
+ ```**;false;1]
  
 $c[Footer]
     $thumbnail[$serverIcon]

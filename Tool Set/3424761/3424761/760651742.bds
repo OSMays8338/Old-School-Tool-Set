@@ -37,7 +37,7 @@ $title[Rank Request]
 $description[$nickname,$var[\n]$var[\n]> You have received the __**Zenyte**__ rank!]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[https://gyazo.com/fe683e0b2f0774e9a0d7b727fd1aa289.png]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -49,7 +49,7 @@ $title[Rank Request]
 $description[$nickname,$var[\n]$var[\n]> You have received the __**Dragonstone**__ rank!]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[https://gyazo.com/3127e69e5e9ec6bc57833d9ce1d6b20f.png]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -64,7 +64,7 @@ $title[Rank Request]
 $description[$nickname,$var[\n]$var[\n]> You have received the __**Dragon**__ rank!]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[https://gyazo.com/31ac1495fbf495d21f422d025dc45707.png]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -76,7 +76,7 @@ $title[Rank Request]
 $description[$nickname,$var[\n]$var[\n]> You have received the __**Rune Bar**__ rank!]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[https://gyazo.com/a3bf0755bccc17e2242c25f85df58f8b.png]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -88,7 +88,7 @@ $title[Rank Request]
 $description[$nickname,$var[\n]$var[\n]> You have received the __**Adamant Bar**__ rank!]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[https://gyazo.com/fb616f78d76d330797a04b5877e19bf4.png]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -97,10 +97,12 @@ $elseif[$var[experience]>=100000000]
 $roleGrant[$authorID;+1428594443694379028]
 $roleGrant[$authorID;-1428594309862789141]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Mithril Bar**__ rank!]
+$description[Congratulations
+### $nickname,
+> You have received the __**Mithril Bar**__ rank!]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -109,10 +111,12 @@ $elseif[$var[experience]>=50000000]
 $roleGrant[$authorID;+1428594309862789141]
 $roleGrant[$authorID;-1428582506575429642]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Steel Bar**__ rank!]
+$description[Congratulations
+### $nickname,
+> You have received the __**Steel Bar**__ rank!]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -121,10 +125,13 @@ $elseif[$var[experience]>=25000000]
 $roleGrant[$authorID;+1428582506575429642]
 $roleGrant[$authorID;-1428579629605847253]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Iron Bar**__ rank!]
+$description[# Congratulations
+### $nickname,
+> You have received the __**Iron Bar**__ rank!
+# <:IronBar:1426868056143036547>]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -134,10 +141,14 @@ $elseif[$var[experience]>=10000000]
 $roleGrant[$authorID;+1428579629605847253]
 $roleGrant[$authorID;-1428531990969323651]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Bronze Bar**__ rank!]
+$description[# Congratulations
+### $nickname,
+> You have received the __**Bronze Bar**__ rank!
+<:BronzeBar:1426868038761713674>
+]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -149,10 +160,14 @@ $elseif[$var[level]>=1750]
 $roleGrant[$authorID;+1428531990969323651]
 $roleGrant[$authorID;-1428531909906006137]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Magic Tree**__ rank!]
+$description[# Congratulations
+### $nickname,
+> You have received the __**Magic Tree**__ rank!
+<:MagicTree:1426867914996187146>
+]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -162,10 +177,14 @@ $elseif[$var[level]>=1500]
 $roleGrant[$authorID;+1428531909906006137]
 $roleGrant[$authorID;-1425217838175486003]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Yew Tree**__ rank!]
+$description[# Congratulations 
+### $nickname,
+> You have received the __**Yew Tree**__ rank!
+ <:YewTree:1426867695151747142>
+ ]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -175,10 +194,14 @@ $elseif[$var[level]>=1250]
 $roleGrant[$authorID;+1425217838175486003]
 $roleGrant[$authorID;-1425214020318789737]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Maple Tree**__ rank!]
+$description[# Congratulations 
+### $nickname,
+> You have received the __**Maple Tree**__ rank!
+# <:MapleTree:1426867657428434974>
+]
 
 $c[Footer]
-$thumbnail[.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -188,10 +211,14 @@ $elseif[$var[level]>=1000]
 $roleGrant[$authorID;+1425217838175486003]
 $roleGrant[$authorID;-1425214020318789737]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Willow Tree**__ rank!]
+$description[# Congratulations 
+### $nickname,
+> You have received the __**Willow Tree**__ rank!
+# <:WillowTree:1426867609290149941>
+]
 
 $c[Footer]
-$thumbnail[https://gyazo.com/3d255113a0cd5142003fedc10f464602.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 
@@ -199,10 +226,14 @@ $c[Oak Tree]
 $elseif[$var[level]>=750]
 $roleGrant[$authorID;+1425214020318789737]
 $title[Rank Request]
-$description[$nickname,$var[\n]$var[\n]> You have received the __**Oak Tree**__ rank!]
+$description[# Congratulations 
+### $nickname,
+> You have received the __**Oak Tree**__ rank!
+# <:OakTree:1426867591120556072> 
+]
 
 $c[Footer]
-$thumbnail[https://gyazo.com/96b7136f460b0a42909a99dfb1dd4b0c.png]
+$thumbnail[$authorAvatar]
 $footer[$addTimestamp]
 $color[#D8A63B]
 

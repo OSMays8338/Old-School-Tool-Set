@@ -22,4 +22,4 @@ $onlyAdmin[You need Admin perms to use this cmd.]
 
 $setVar[ClanID;$message[clanid]]
 
-> Thank you for providing your Clan ID. $message[clanid]
+> Thank you for providing your Clan ID.

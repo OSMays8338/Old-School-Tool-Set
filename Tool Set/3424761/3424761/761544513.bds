@@ -1,0 +1,43 @@
+$nomention
+$onlyAdmin[Only the Owner can use this command.]
+
+
+
+
+
+$if[$message[1]==] 
+$title[Slayer Diaries]
+$description[
+This command provides details about your specified ***Slayer monster***, 
+Including:
+```
+🟢 Standard Monsters
+🟣 Variants
+🔺 Superiors
+👑 Bosses
+```
+Also useful information like 
+- Locations 
+- Item requirements
+- Key drops
+- Mechanics
+&
+- How **Ironman** should handle it
+
+Whether you're looking for the best places to hunt, notable loot, or necessary preparations, this tool ensures you have everything needed for efficient Slayer training.
+]
+$endif 
+
+
+
+$if[$message[1]==test] 
+$title[Slayer Diaries]
+$description[This is a test message.]
+$endif
+
+
+
+$if[$message[1]==test2] 
+$title[Slayer Diaries]
+$description[This is the second test message.]
+$endif
