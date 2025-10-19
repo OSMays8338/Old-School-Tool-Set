@@ -1,5 +1,6 @@
 # Old School Tool Set
 
+---
 
 <details>
   <summary>Utilities</summary>
@@ -40,7 +41,7 @@ Whether you're looking for the best places to hunt, notable loot, or necessary p
 
 **Old School Tool Set (OSTS)** makes use of the following community resources:
 
-- 🧠 **[Wise Old Man API](https://wiseoldman.net)** — for player, group, and competition data.  
+- 🧠 **[Wise Old Man API](https://docs.wiseoldman.net/api)** — for player, group, and competition data.  
 - 📚 **[Old School RuneScape Wiki](https://oldschool.runescape.wiki)** — content provided under the **CC BY-SA 3.0** license.  
 - 🤖 **[Bot Designer For Discord](https://botdesignerdiscord.com)** — for bot scripting and automation.  
 
