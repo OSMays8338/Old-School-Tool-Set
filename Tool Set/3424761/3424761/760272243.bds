@@ -19,6 +19,9 @@ $c[PROFILE COMMAND]
 
 $nomention
 
+$c[This command can only be used by Members.]
+$onlyForRoles[Member;:x: You need to be a Member to use this]
+
 $c[API Call]
 $httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]] 
 
@@ -35,5 +38,4 @@ $description[This is the profile for __**$httpResult[displayName]**__
 > **ID**: $httpResult[id]
 
 > <:Stats_icon:1426867260483702884> Level: $numberSeparator[$httpResult[latestSnapshot;data;skills;overall;level];,]
-> <:Stats_icon:1426867260483702884> XP: $numberSeparator[$httpResult[latestSnapshot;data;skills;overall;experience];,]
-]
+> <:Stats_icon:1426867260483702884> XP: $numberSeparator[$httpResult[latestSnapshot;data;skills;overall;experience];,]]

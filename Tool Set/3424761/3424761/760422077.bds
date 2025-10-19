@@ -19,6 +19,9 @@ $c[STATS COMMAND]
 
 $nomention
 
+$c[This command can only be used by Members.]
+$onlyForRoles[Member;:x: You need to be a Member to use this]
+
 $c[API Call]
 $httpGet[https://api.wiseoldman.net/v2/players/$getVar[RSN;$authorID]] 
 

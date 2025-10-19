@@ -16,3 +16,6 @@ https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE
 ───────────────────────────────────────────────────────────────────]
 
 $nomention
+
+$c[This command can only be used by Members.]
+$onlyForRoles[Member;:x: You need to be a Member to use this]

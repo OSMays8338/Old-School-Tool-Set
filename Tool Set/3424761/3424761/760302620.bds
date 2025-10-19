@@ -22,9 +22,6 @@ $thumbnail[$userAvatar[$authorID];1]
 $footer[$getVar[footer] $addTimestamp]
 $color[#D8A63B] 
 
-$c[This command can only be used by Members.]
-$onlyForRoles[Member;You need to be a Member to use this]
-
 $c[Set Variable]
 $setUserVar[RSN;$message[name];$authorID]
 

@@ -15,7 +15,8 @@ $c[─────────────────────────�
 // https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE
 ───────────────────────────────────────────────────────────────────]
 
-$onlyForRoles[Member;:x: You need to be a Member to use this!]
+$c[This command can only be used by Members.]
+$onlyForRoles[Member;:x: You need to be a Member to use this]
 
 $c[Newline Variable]
 $var[\n;$url[decode;%0A]]

@@ -24,12 +24,20 @@ Cmds are only visible up to your highest role.]
 
 $if[$hasRole[$authorID;1399092953498255460]]
  $addField[__**Owner Cmds**__;**```
-• /announce       •  /reason
-• /approval       •  /tidy
-• /ban            •  /unban
-• /kick           •  /unmute
-• /mute           •  /warn
-• /pardon         •  /say
+/announce
+/approval
+/ban
+/kick
+/mute
+/pardon
+/reason
+/tidy
+/unban
+/unmute
+/warn
+/say 
+/clanid
+/tidy
  ```**;false;1]
 
 $c[Footer]
@@ -40,12 +48,20 @@ $c[Footer]
 
  $if[$hasRole[$authorID;1399093247464181781]==true]
     $addField[__**Deputy Owners Cmds**__ ;**```
-• /announce       •  /reason
-• /approval       •  /tidy
-• /ban            •  /unban
-• /kick           •  /unmute
-• /mute           •  /warn
-• /pardon         •  /say
+/announce
+/approval
+/ban
+/kick
+/mute
+/pardon
+/reason
+/tidy
+/unban
+/unmute
+/warn
+/say 
+/clanid
+/tidy
  ```**;false;1]
 
 $c[Footer]
@@ -56,12 +72,20 @@ $c[Footer]
 
 $if[$hasRole[$authorID;1399096694427226122]==true]
     $addField[__**Cabinet Cmds**__;**```
-• /announce       •  /reason
-• /approval       •  /tidy
-• /ban            •  /unban
-• /kick           •  /unmute
-• /mute           •  /warn
-• /pardon         •  /say
+/announce
+/approval
+/ban
+/kick
+/mute
+/pardon
+/reason
+/tidy
+/unban
+/unmute
+/warn
+/say 
+/clanid
+/tidy
  ```**;false;1]
 
 $c[Footer]
@@ -72,12 +96,21 @@ $c[Footer]
 
 $if[$hasRole[$authorID;1399093446748405881]==true]
     $addField[__**OSTS Cmds**__;**```
-• /about          •  /rank
-• /clan           •  /rsn
-• /clanid         •  /stats
-• /help           •  /tidy
-• /lvls           •  /uptime
-• /profile        •  /vote
+/dink 
+/fordink 
+/lvls 
+/midgame 
+/profile 
+/questreq 
+/rank 
+/settz 
+/signup 
+/slayer 
+/stats 
+/suggestion 
+/times 
+/uptime 
+/warnings 
  ```**;false;1]
  
 $c[Footer]
@@ -91,9 +124,13 @@ $c[Footer]
 $if[$hasRole[$authorID;1399139265723764776]==true]
     $addField[__**Guest Limited Access**__
 __**OSTS Cmds**__;**```
-• /about  
-• /clan 
-• /help           
+/about
+/clan
+/osrs
+/help
+/invite
+/rsn        
+/wiki 
  ```**;false;1]
  
 $c[Footer]
