@@ -49,5 +49,5 @@ This project is **unaffiliated** with Jagex, the OSRS Wiki team, Wise Old Man, o
 
 ---
 
-📝 **License:** [Old School Tool Set License v1.0](https://github.com/OS-Mays8338)  
+📝 **License:** [Old School Tool Set License v1.0](https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE)  
 © 2025 **OS-Mays8338** — All Rights Reserved
