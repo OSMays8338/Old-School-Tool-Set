@@ -18,9 +18,6 @@ $c[─────────────────────────�
 
 $nomention
 
-do you really need help?
-
-
 $title[Help Menu]
 $description[This Help Menu is based on your roles.....
 Cmds are only visible up to your highest role.]
@@ -29,22 +26,23 @@ $if[$hasRole[$authorID;1399092953498255460]]
  $addField[__**Owner Cmds**__;```
  announce, approval, ban, kick,  mute, pardon, reason, tidy, unban, unmute, warn, say
  ```;false;1]
+     $endif
 
- $elseif[$hasRole[$authorID;1399093247464181781]]
+ $if[$hasRole[$authorID;1399093247464181781]==true]
  $addField[__**Deputy Owners Cmds**__ ; ```
  announce, approval, ban, kick,  mute, pardon, reason, tidy, unban, unmute, warn, say
  ```;false;2]
+     $endif
 
- $elseif[$hasRole[$authorID;1399096694427226122]]
+$if[$hasRole[$authorID;1399096694427226122]==true]
 $addField[__**Cabinet Cmds**__;```
  approval, ban, kick,  mute, pardon, reason, tidy, unban, unmute, warn, say
  ```;false;3]
-    $endif
+     $endif
 
-
- $elseif[$hasRole[$authorID;1399093446748405881]]
+$if[$hasRole[$authorID;1399093446748405881]==true]
 $addField[__**B4L Cmds**__;```
- !dink 
+!dink 
 !fordink 
 !midgame 
 !osrs 
@@ -56,7 +54,8 @@ $addField[__**B4L Cmds**__;```
 !warnings 
 !wiki
  ```
-### __**OSTS Cmds**__
+
+__**OSTS Cmds**__
  ```
 /lvls 
 !midgame 
@@ -65,5 +64,5 @@ $addField[__**B4L Cmds**__;```
 !slayer 
 /stats
  ```;false;4]
-
-
+ 
+    $endif
