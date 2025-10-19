@@ -24,45 +24,78 @@ Cmds are only visible up to your highest role.]
 
 $if[$hasRole[$authorID;1399092953498255460]]
  $addField[__**Owner Cmds**__;```
- announce, approval, ban, kick,  mute, pardon, reason, tidy, unban, unmute, warn, say
+• /announce     •  /reason
+• /approval     •  /tidy
+• /ban          •  /unban
+• /kick         •  /unmute
+• /mute         •  /warn
+• /pardon       •  /say
  ```;false;1]
+
+$c[Footer]
+    $thumbnail[$serverIcon]
+    $footer[This is only a test! ]
+    $color[#D8A63B]
      $endif
 
  $if[$hasRole[$authorID;1399093247464181781]==true]
- $addField[__**Deputy Owners Cmds**__ ; ```
- announce, approval, ban, kick,  mute, pardon, reason, tidy, unban, unmute, warn, say
- ```;false;2]
+    $addField[__**Deputy Owners Cmds**__ ; ```
+• /announce     •  /reason
+• /approval     •  /tidy
+• /ban          •  /unban
+• /kick         •  /unmute
+• /mute         •  /warn
+• /pardon       •  /say
+ ```;false;1]
+
+$c[Footer]
+    $thumbnail[$serverIcon]
+    $footer[This is only a test! ]
+    $color[#D8A63B]
      $endif
 
 $if[$hasRole[$authorID;1399096694427226122]==true]
-$addField[__**Cabinet Cmds**__;```
- approval, ban, kick,  mute, pardon, reason, tidy, unban, unmute, warn, say
- ```;false;3]
+    $addField[__**Cabinet Cmds**__;```
+• /announce     •  /reason
+• /approval     •  /tidy
+• /ban          •  /unban
+• /kick         •  /unmute
+• /mute         •  /warn
+• /pardon       •  /say
+ ```;false;1]
+
+$c[Footer]
+    $thumbnail[$serverIcon]
+    $footer[This is only a test! ]
+    $color[#D8A63B]
      $endif
 
 $if[$hasRole[$authorID;1399093446748405881]==true]
-$addField[__**B4L Cmds**__;```
-!dink 
-!fordink 
-!midgame 
-!osrs 
-!rsn 
-!signup
-!settz 
-!suggestion 
-!times 
-!warnings 
-!wiki
- ```
-
-__**OSTS Cmds**__
- ```
-/lvls 
-!midgame 
-/profile 
-!questreq 
-!slayer 
-/stats
- ```;false;4]
+    $addField[__**OSTS Cmds**__;```
+• /about        •  /rank
+• /clan         •  /rsn
+• /clanid       •  /stats
+• /help         •  /tidy
+• /lvls         •  /uptime
+• /profile      •  /vote
+ ```;false;1]
  
+$c[Footer]
+    $thumbnail[$serverIcon]
+    $footer[This is only a test! ]
+    $color[#D8A63B]
     $endif
+
+
+
+
+
+
+
+• /announce     •  /reason
+• /approval     •  /tidy
+• /ban          •  /unban
+• /kick         •  /unmute
+• /mute         •  /warn
+• /pardon       •  /say
+
