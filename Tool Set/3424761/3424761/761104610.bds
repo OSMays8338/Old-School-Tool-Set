@@ -85,17 +85,3 @@ $c[Footer]
     $footer[This is only a test! ]
     $color[#D8A63B]
     $endif
-
-
-
-
-
-
-
-• /announce     •  /reason
-• /approval     •  /tidy
-• /ban          •  /unban
-• /kick         •  /unmute
-• /mute         •  /warn
-• /pardon       •  /say
-
