@@ -17,7 +17,6 @@
 The Slayer Diaries is a command system that provides details about your specified ***Slayer Monster*** on task, <br>
 Including:<br><br>
 
-
 🟢 Standard Monsters<br>
 🟣 Variants<br>
 🔺 Superiors<br>
@@ -49,5 +48,12 @@ This project is **unaffiliated** with Jagex, the OSRS Wiki team, Wise Old Man, o
 
 ---
 
-📝 **License:** [Old School Tool Set License v1.0](https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE)  
+### 🧾 License
+
+[![License: OSTS-1.1](https://img.shields.io/badge/License-OSTS--1.1%20AND%20CC--BY--SA--3.0-blue.svg)](https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE)  
+
+This project is licensed under the **Old School Tool Set License v1.1**,  
+with portions derived from the **Old School RuneScape Wiki** under the **CC BY-SA 3.0** license.  
+
+**SPDX-License-Identifier:** `LicenseRef-OSMays8338-OSTS-1.1 AND CC-BY-SA-3.0`  
 © 2025 **OS-Mays8338** — All Rights Reserved
