@@ -1,0 +1,33 @@
+$nomention
+$if[$message==Bestiary-p1]
+$title[Bestiary p.1]
+$description[
+🟢 Aberrant spectre
+  - 🟣 Deviant spectre
+  - 🔺 Abhorrent spectre
+  - 🔺 Repugnant spectre
+
+🟢 Abyssal demon
+  - 👑 Abyssal Sire
+  - 🔺 Greater abyssal demon
+
+🟢 Adamant dragon
+
+🟢 Ankou
+
+🟢 Araxyte
+  - 🟣 Araxxor
+  - 🔺 Dreadborn Araxyte
+
+🟢 Aviansie
+  - 🟣 Kree'arra
+  - 🟣 Flight Kilisa
+  - 🟣 Flockleader Geerin
+  - 🟣 Wingman Skree
+
+]
+$c[Footer]
+$thumbnail[$getVar[SDlogo]]
+$footer[Requested by $nickname[$authorID] $addTimestamp]
+$color[#D8A63B]
+$endif

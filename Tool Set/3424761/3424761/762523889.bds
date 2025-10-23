@@ -1,0 +1,7 @@
+$nomention
+$description[You worked as a $randomText[Game Developer;Discord Mod;Bot Developer;Gamer] and earned $random[100;500] coins]
+$setUserVar[bank;$sum[$getUserVar[bank;$authorID];500];$authorID]
+$color[#FFFF00]
+$cooldown[45m;You can only use this command every 45 minutes]
+
+

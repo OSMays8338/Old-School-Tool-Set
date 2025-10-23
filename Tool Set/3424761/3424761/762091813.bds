@@ -1,0 +1,3 @@
+$botListHide
+$nomention
+$deleteMessage[$channelID;$messageID]

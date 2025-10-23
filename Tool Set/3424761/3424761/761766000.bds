@@ -15,33 +15,18 @@ $c[─────────────────────────�
 https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE
 ───────────────────────────────────────────────────────────────────]
 
-$c[PROFILE COMMAND]
-
 $nomention
 
-$c[This command can only be used by Members.]
-$onlyForRoles[Member;:x: You need to be a Member to use this]
-
-$c[API Call]
-$httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]] 
-
-$c[Footer]
-$thumbnail[$userAvatar[$authorID]]
-$footer[This is only a test! ]
-$color[#D8A63B]
-
-$c[Body]
-$title[__**$httpResult[displayName]**__'s
- Account]
-$description[> **Build**: $httpResult[build]
-> **Type**: $httpResult[type]
-> **ID**: $httpResult[id]
-
-> <:Stats_icon:1426867260483702884> Level: $numberSeparator[$httpResult[latestSnapshot;data;skills;overall;level];,]
-> <:Stats_icon:1426867260483702884> XP: $numberSeparator[$httpResult[latestSnapshot;data;skills;overall;experience];,]
+$c[This command can only be used by Members.
+$onlyForRoles[Member;:x: You need to be a Member to use this]]
 
 
-__**In-Server Currencies**__
-GP: $getUserVar[bank]
-SP: $getUserVar[slayerPoints]
-]
+
+$onlyAdmin[Only the Owner can use this command for testing purposes.]
+
+
+### Welcome to the __**Slayer Diaries**__ 
+$newSelectMenu[Codex;1;1;Choose a Monster... ]
+$addSelectMenuOption[Codex;About;About;About Slayer Diaries. ]
+$addSelectMenuOption[Codex;Task Weight;taskWeight;The second option]
+$addSelectMenuOption[Codex;Bestiary p.1;Bestiary-p1;Page 1 of the Bestiary.]
