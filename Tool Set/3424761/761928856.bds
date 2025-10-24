@@ -55,5 +55,10 @@ $addButton[no;https://oldschool.runescape.wiki/w/Aberrant_spectre;Wiki;link;;ðŸ–
 $addButton[no;CloseSDpage;Close Book;danger;;ðŸ“”;]
 $endif
 
+
+
+
+
+
 $deletecommand
 $botTyping

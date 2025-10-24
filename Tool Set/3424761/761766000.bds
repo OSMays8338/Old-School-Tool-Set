@@ -16,7 +16,7 @@ $onlyForRoles[Member;:x: You need to be a Member to use this]
 
 
 $title[$nickname[$authorID], ]
-$description[Welcome, adventurer, to the __**Slayer Diaries**__.
+$description[Welcome to the __**Slayer Diaries**__.
 
 __**Foreword**__  
 This Codex has been entrusted to you by the Slayer Masters of Gielinor.  
@@ -43,16 +43,17 @@ $addSelectMenuOption[Compendium;Task Weight;taskWeight;An explanation of Task We
 
 $if[$message[bestiary]==true]
 $newSelectMenu[Bestiary;1;1;Open the Bestiary... ]
-$addSelectMenuOption[Bestiary;Bestiary p.1;Bestiary-p1;Page 1 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.2;Bestiary-p2;Page 2 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.3;Bestiary-p3;Page 3 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.4;Bestiary-p4;Page 4 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.5;Bestiary-p5;Page 5 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.6;Bestiary-p6;Page 6 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.7;Bestiary-p7;Page 7 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.8;Bestiary-p8;Page 8 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.9;Bestiary-p9;Page 9 of the Bestiary.]
-$addSelectMenuOption[Bestiary;Bestiary p.10;Bestiary-p10;Page 10 of the Bestiary.]
+$addSelectMenuOption[Bestiary;📜 Ch. I;Bestiary-p1;The Abyssal & Accursed]
+$addSelectMenuOption[Bestiary;📜 Ch. II;Bestiary-p2;Wings & Wails]
+$addSelectMenuOption[Bestiary;📜 Ch. III;Bestiary-p3;Serpents, Fangs & Furs]
+$addSelectMenuOption[Bestiary;📜 Ch. IV;Bestiary-p4;Feather & Shadow]
+$addSelectMenuOption[Bestiary;📜 Ch. V;Bestiary-p5;Vermin & Flame]
+$addSelectMenuOption[Bestiary;📜 Ch. VI;Bestiary-p6;Scales & Sand]
+$addSelectMenuOption[Bestiary;📜 Ch. VII;Bestiary-p7;Shades & Shadows]
+$addSelectMenuOption[Bestiary;📜 Ch. VIII;Bestiary-p8;Webs & Smoke]
+$addSelectMenuOption[Bestiary;📜 Ch. IX;Bestiary-p9;Frost & Fury]
+$addSelectMenuOption[Bestiary;📜 Ch. X;Bestiary-p10;Flame & Mutation]
+$addSelectMenuOption[Bestiary;📜 Ch. XI;Bestiary-p11;Fang & Rot]
 $endif
 
 $addButton[no;CloseSD;Close Book;danger;;📔;]

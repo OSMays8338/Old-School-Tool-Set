@@ -17,7 +17,7 @@ $var[\n;$url[decode;%0A]]
 $nomention 
 $if[$message==Foreword]
 $title[$nickname[$authorID], ]
-$description[Welcome, adventurer, to the __**Slayer Diaries**__.
+$description[Welcome to the __**Slayer Diaries**__.
 
 __**Foreword**__  
 This Codex has been entrusted to you by the Slayer Masters of Gielinor.  

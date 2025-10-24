@@ -30,3 +30,5 @@ $footerIcon[https://gyazo.com/fc15153b49cdab6d7e7d00824b7e5f14.jpeg]
 $color[#A52A2A]
 $deletecommand
 $deleteIn[30s]
+
+$cooldown[1h;You may come back to your slayer master in %time% to get a new task.]
