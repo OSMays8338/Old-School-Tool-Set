@@ -1,7 +1,0 @@
-$onlyAdmin[$username, you don't have the perms to use this. ]
-
-$mentioned[1;yes]
-$title[Winner Winner]
-$description[
-Tests
-]

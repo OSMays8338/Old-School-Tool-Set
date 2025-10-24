@@ -1,0 +1,28 @@
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────] 
+$c[Old School Tool Set License v1.1 — © 2025 OSMays8338 | All Rights Reserved]
+$c[Portions of this script may include content from the OSRS Wiki under CC BY-SA 3.0]
+$c[For full license details, see: https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE]
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────] 
+$c[SPDX-License-Identifier: LicenseRef-OSMays8338-OSTS-1.1 AND CC-BY-SA-3.0]
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────]
+
+$nomention
+
+$c[This command can only be used by Members.]
+$onlyForRoles[Member;:x: You need to be a Member to use this]
+
+$c[API Call]
+$httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]] 
+
+$title[Account Profile]
+$description[This is the profile for __**$httpResult[displayName]**__
+
+$c[Overall]
+$addField[<:Stats_icon:1426867260483702884> $toUppercase[**$httpResult[latestSnapshot;data;skills;overall;metric]**];
+        > Level: $httpResult[latestSnapshot;data;skills;overall;level]
+        > Rank: $numberSeparator[$httpResult[latestSnapshot;data;skills;overall;rank];,]
+        > XP: $numberSeparator[$httpResult[latestSnapshot;data;skills;overall;experience];,]
+        ;true;1]
+]
+
+$color[$getRoleColor[$highestRole[$authorID]]]

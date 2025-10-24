@@ -1,0 +1,41 @@
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────] 
+$c[Old School Tool Set License v1.1 — © 2025 OSMays8338 | All Rights Reserved]
+$c[Portions of this script may include content from the OSRS Wiki under CC BY-SA 3.0]
+$c[For full license details, see: https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE]
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────] 
+$c[SPDX-License-Identifier: LicenseRef-OSMays8338-OSTS-1.1 AND CC-BY-SA-3.0]
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────]
+
+$nomention
+$if[$message==Bestiary-p1]
+$title[Bestiary p.1]
+$description[
+🟢 Aberrant spectre
+  - 🟣 Deviant spectre
+  - 🔺 Abhorrent spectre
+  - 🔺 Repugnant spectre
+
+🟢 Abyssal demon
+  - 👑 Abyssal Sire
+  - 🔺 Greater abyssal demon
+
+🟢 Adamant dragon
+
+🟢 Ankou
+
+🟢 Araxyte
+  - 🟣 Araxxor
+  - 🔺 Dreadborn Araxyte
+
+🟢 Aviansie
+  - 🟣 Kree'arra
+  - 🟣 Flight Kilisa
+  - 🟣 Flockleader Geerin
+  - 🟣 Wingman Skree
+
+]
+$c[Footer]
+$thumbnail[$getVar[SDlogo]]
+$footer[Requested by $nickname[$authorID] $addTimestamp]
+$color[#D8A63B]
+$endif

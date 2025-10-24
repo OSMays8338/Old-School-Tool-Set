@@ -1,7 +1,0 @@
-$nomention
-$description[Successfully resetted the bank balance of <@$mentioned[1]>]
-$resetUserVar[🪙;$mentioned[1]]
-$resetUserVar[🏦;$mentioned[1]]
-$resetUserVar[💀;$mentioned[1]]
-$onlyIf[$mentioned[1]!=;Please mention someone]
-$suppressErrors

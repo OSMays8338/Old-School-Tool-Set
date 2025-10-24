@@ -1,6 +1,0 @@
-$onlyForRoles[1235135453179547750;> I do apologize, but unfortunately Bender is the only one able to use this command.]
-
-$setUserVar[🏦;$sub[$getUserVar[🏦;$authorID];$message[1]];$authorID]
-
-
-$color[b8f5bb]
