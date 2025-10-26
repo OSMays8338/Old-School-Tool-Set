@@ -1,0 +1,17 @@
+$nomention
+$title[Slayer Shop]
+$description[“Ah, greetings, Slayer!
+Step forth and behold the spoils of your conquests — relics forged in blood, steel, and skill.
+From task extensions and forbidden unlocks to the rarest of trinkets, each reward stands as proof of your prowess in combat.
+
+Every token spent here whispers from the abyss — a mark of your unyielding dedication.
+
+Spend your points wisely, for the path of the Slayer is long… and power is never cheap.
+Earn them, trade them, and rise ever higher among your peers.”]
+$color[FF0000]
+
+$removeComponent[Slayer]
+$removeComponent[Store]
+
+$newSelectMenu[SlayerShop;1;1;Slayer Shop]
+$addSelectMenuOption[Slayer;Come in...;insideSS-p1;Watch your step.]

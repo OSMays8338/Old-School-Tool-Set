@@ -22,7 +22,7 @@ $var[\lb;$url[decode;%5B]]
 
 $nomention
 
- 
+
 $if[$message==Aberrant spectre]
 $title[Aberrant spectre]
 $embeddedURL[https://oldschool.runescape.wiki/w/Aberrant_spectre;1] 
@@ -54,11 +54,5 @@ $color[#7AAB61]
 $addButton[no;https://oldschool.runescape.wiki/w/Aberrant_spectre;Wiki;link;;🖥️;]
 $addButton[no;CloseSDpage;Close Book;danger;;📔;]
 $endif
-
-
-
-
-
-
-$deletecommand
 $botTyping
+$ignoreTriggerCase

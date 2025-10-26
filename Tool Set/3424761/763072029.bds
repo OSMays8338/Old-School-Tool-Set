@@ -1,0 +1,9 @@
+$nomention
+
+$title[Title]
+$description[Message]
+$color[FF0000]
+
+$removeAllComponents
+
+$addButton[no;CloseStore;Leave;danger;;🚪;]

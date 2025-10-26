@@ -5,17 +5,6 @@ $c[For full license details, see: https://github.com/OSMays8338/Old-School-Tool-
 $c[─────────────────────────────────────────────────────────────────────────────────────────────────────] 
 $c[SPDX-License-Identifier: LicenseRef-OSMays8338-OSTS-1.1 AND CC-BY-SA-3.0]
 $c[─────────────────────────────────────────────────────────────────────────────────────────────────────]
-
+$botListHide
 $nomention
-
-$c[This command can only be used by Members.]
-$onlyForRoles[Member;:x: You need to be a Member to use this]
-
-$title[Chat Level for...]
-$image[https://vacefron.nl/api/rankcard?username=$replaceText[$nickname[$mentioned[1;yes]]; ;%20;-1]&avatar=$userAvatar[$mentioned[1;yes]]?size=1024&level=$getUserVar[level;$mentioned[1;yes]]&rank=$getUserVar[rank;$mentioned[1;yes]]%20Rank&currentxp=$getUserVar[currentxp;$mentioned[1;yes]]&nextlevelxp=$getUserVar[nextlevelxp;$mentioned[1;yes]]&previouslevelxp=0&custombg=https://i.etsystatic.com/40039685/r/il/20c65a/4620892157/il_794xN.4620892157_e7nh.jpg&xpcolor=$getRoleColor[$highestRole[$authorID]]]
-
-$footer[Bank of Gielinor $addTimestamp]
-$color[$getRoleColor[$highestRole[$authorID]]]
-
-$deletecommand
-
+$deleteMessage[$channelID;$messageID] 
