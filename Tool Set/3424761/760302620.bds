@@ -21,6 +21,6 @@ $title[Update Successful]
 $description[***$username***, 
 Thank you for providing your Account Name.
 
-You will now be known as:
-**$getUserVar[RSN]**
+> You will now be known as:
+> **$getUserVar[RSN]**
 ]

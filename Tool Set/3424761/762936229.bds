@@ -1,11 +1,11 @@
 $nomention
 
-$if[$message[Store]==true]
+
 $title[Testing]
 $description[This is completely a test]
 
 $thumbnail[$getVar[SDlogo]]
 $footer[Requested by $nickname[$authorID] $addTimestamp]
-$color[#D8A63B]$endif 
+$color[#D8A63B]
 
 $addButton[no;CloseStore;Leave;danger;;🚪;]

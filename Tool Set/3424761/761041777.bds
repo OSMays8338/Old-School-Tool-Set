@@ -10,8 +10,15 @@ $nomention
 
 $title[Vote Now]
 $description[Thank you for taking the time to vote for us. 
-It's is very appreciated! ]
+It is very appreciated! ]
 
-$addButton[no;https://top.gg/discord/servers/765702568235892736/vote;Top.gg;link;;;]
+$c[OSTS Support Server]
+$addButton[no;https://top.gg/discord/servers/765702568235892736/vote;Support Server;link;;🫶🏻;]
 
-$addButton[no;https://botdesignerlist.com/bot/iaAMNC0alFPRh7XCbcIq#rate-bot;BotDesignerList;link;;;]
+$c[Vote for OSTS]
+$addButton[no;https://top.gg/bot/1424876843688788080?s=0195cdcd8d057;Bot;link;;🤖;]
+
+$c[Vote for Bonded4Life]
+$if[$guildID[Bonded4Life]==1398976009214230630]
+$addButton[yes;https://top.gg/discord/servers/770415141284773888/vote;Bonded4Life;link;;<:B4L:1432159536835334154>;]
+$endif

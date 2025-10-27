@@ -1,7 +1,7 @@
 $nomention
 
 $title[Title]
-$description[Message]
+$description[Description]
 $color[FF0000]
 
 $removeAllComponents

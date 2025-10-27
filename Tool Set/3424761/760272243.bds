@@ -38,6 +38,8 @@ $description[> **Build**: $httpResult[build]
 
 🪙 **GP**: $getUserVar[🪙]
 🏦 **Bank Value**: $getUserVar[🏦]
+
+☠️ **Completed Tasks**: $getUserVar[SlayerTasksCompleted]
 💀 **Slayer Points**: $getUserVar[💀] 
 ─────────────────────────
 ]
