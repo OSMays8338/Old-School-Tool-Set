@@ -14,7 +14,7 @@ $footer[$addTimestamp]
 $color[#D8A63B] 
 
 $c[Set Variable]
-$setUserVar[RSN;$message[name];$authorID]
+$setVar[RSN;$message[name];$authorID]
 
 $c[Body]
 $title[Update Successful]
@@ -22,5 +22,5 @@ $description[***$username***,
 Thank you for providing your Account Name.
 
 > You will now be known as:
-> **$getUserVar[RSN]**
+> **$getVar[RSN;$authorID]**
 ]

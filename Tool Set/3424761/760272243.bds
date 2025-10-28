@@ -12,7 +12,7 @@ $c[This command can only be used by Members.]
 $onlyForRoles[Member;:x: You need to be a Member to use this]
 
 $c[API Call]
-$httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]] 
+$httpGet[https://api.wiseoldman.net/v2/players/$getVar[RSN;$authorID]] 
 
 $c[Footer]
 $thumbnail[$userAvatar[$authorID]]
@@ -32,14 +32,14 @@ $description[> **Build**: $httpResult[build]
 
 
 
-## Server Info
+## Stats 
 ─────────────────────────
-📊 **Level**: $getUserVar[level]
+📊 **Level**: $getVar[level;$authorID]
 
-🪙 **GP**: $getUserVar[🪙]
-🏦 **Bank Value**: $getUserVar[🏦]
+🪙 **GP**: $getVar[🪙;$authorID]
+🏦 **Bank Value**: $getVar[🏦;$authorID]
 
-☠️ **Completed Tasks**: $getUserVar[SlayerTasksCompleted]
-💀 **Slayer Points**: $getUserVar[💀] 
+☠️ **Completed Tasks**: $getVar[SlayerTasksCompleted;$authorID]
+💀 **Slayer Points**: $getVar[💀;$authorID] 
 ─────────────────────────
 ]

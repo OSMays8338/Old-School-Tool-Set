@@ -14,13 +14,14 @@ $onlyForRoles[Member;:x: You need to be a Member to use this]
 
 $if[$isSlash==false]
 $c[Task Completion]
-$setUserVar[SlayerTasksCompleted;$sum[$getUserVar[SlayerTasksCompleted;$authorID];1];$authorID]
+$setVar[SlayerTasksCompleted;$sum[$getVar[SlayerTasksCompleted;$authorID];1];$authorID]
 
 $c[GP]
-$setUserVar[🪙;$sum[$getUserVar[🪙;$authorID];$random[100;250]];$authorID]
+$setVar[🪙;$sum[$getVar[🪙;$authorID];$random[100;250]];$authorID]
 
 $c[Slayer Points]
-$setUserVar[💀;$sum[$getUserVar[💀;$authorID];$random[1;5]];$authorID]
+$setVar[💀;$sum[$getVar[💀;$authorID];$random[1;5]];$authorID]
+
 
 $title[Task Completed]
 $description[### You have completed $randomText[Turael;Spria;Mazchna;Vannaka;Chaeldar;Konar;Nieve;Steve;Duradel]'s task! 
@@ -37,18 +38,21 @@ $footer[$addTimestamp]
 $footerIcon[https://gyazo.com/fc15153b49cdab6d7e7d00824b7e5f14.jpeg]
 $color[#A52A2A]
 $deleteIn[30s]
+
+$cooldown[60m;> You may come back in %time% minutes to receive your next task. ]
 $endif
 
 
 $if[$isSlash==true]
 $c[Task Completion]
-$setUserVar[SlayerTasksCompleted;$sum[$getUserVar[SlayerTasksCompleted;$authorID];1];$authorID]
+$setVar[SlayerTasksCompleted;$sum[$getVar[SlayerTasksCompleted;$authorID];1];$authorID]
 
 $c[GP]
-$setUserVar[🪙;$sum[$getUserVar[🪙;$authorID];$random[100;250]];$authorID]
+$setVar[🪙;$sum[$getVar[🪙;$authorID];$random[100;250]];$authorID]
 
 $c[Slayer Points]
-$setUserVar[💀;$sum[$getUserVar[💀;$authorID];$random[1;5]];$authorID]
+$setVar[💀;$sum[$getVar[💀;$authorID];$random[1;5]];$authorID]
+
 
 $title[Task Completed]
 $description[### You have completed $randomText[Turael;Spria;Mazchna;Vannaka;Chaeldar;Konar;Nieve;Steve;Duradel]'s task! 
@@ -65,4 +69,6 @@ $footer[$addTimestamp]
 $footerIcon[https://gyazo.com/fc15153b49cdab6d7e7d00824b7e5f14.jpeg]
 $color[#A52A2A]
 $deleteIn[30s]
+
+$cooldown[60m;> You may come back in %time% minutes to receive your next task. ]
 $endif

@@ -25,7 +25,7 @@ $c[Limiters]
        $onlyIf[$noMentionMessage!=;**⚠️Provide an amount to withdraw**]
         $onlyIf[$isNumber[$noMentionMessage]==true;**⚠️Invalid number or usage**]
          $onlyIf[$checkContains[$noMentionMessage;-;.]!=true;**⚠️Invalid number or usage**]
-          $onlyIf[$getUserVar[🏦;$authorID]>=$noMentionMessage;**⚠️You don't have that much money in your bank**]
+          $onlyIf[$getVar[🏦;$authorID]>=$noMentionMessage;**⚠️You don't have that much money in your bank**]
    
 $c[Message to user]
      
@@ -38,10 +38,9 @@ $footer[Bank of Gielinor]
  
 $c[Variables Changes]
     
-    $setUserVar[🪙;$sum[$getUserVar[🪙;$authorID];$message[1]];$authorID]
-    $setUserVar[🏦;$sub[$getUserVar[🏦;$authorID];$message[1]];$authorID]
+    $setVar[🪙;$sum[$getVar[🪙;$authorID];$message[1]];$authorID]
+    $setVar[🏦;$sub[$getVar[🏦;$authorID];$message[1]];$authorID]
 
 
 $author[$username[$authorID]]
 $ignoreTriggerCase
-$deleteIn[15s]

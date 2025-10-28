@@ -8,11 +8,12 @@ $c[─────────────────────────�
 
 $nomention
 
+
 $onlyForRoles[Owner;Deputy Owner;❌ I'm sorry but you need to be an Owner to use this command.]
 
 $title[Money added to $nickname[$mentioned[1]]'s pocket.]
 $description[you have added $message[1]🪙.]
 
-$setUserVar[🪙;$sum[$getUserVar[🪙;$mentioned[1;yes]];$message[1]];$mentioned[1;yes]]
+$setVar[🪙;$sum[$getVar[🪙;$mentioned[1;yes]];$message[1]];$mentioned[1;yes]]
 
 $color[b8f5bb]
