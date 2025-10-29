@@ -9,6 +9,7 @@ $if[$customID==suggest1]
 $nomention
 $channelSendMessage[$getServerVar[suggest];<@&1403456130943946933>]
 $sendEmbedMessage[$getServerVar[suggest];;New Suggestion!;;Author: $username
+Author Nickname: $nickname
 
 Suggestion: $input[Suggestion]
 

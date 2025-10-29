@@ -2,7 +2,7 @@ $nomention
 $onlyForServers[1403455538460753940;I'm sorry but this command is only available for the Support server.]
 
 $deletecommand
-$onlyAdmin[⛔️ Only administrator can use this!] 
+$onlyForRoles[Member;⛔️ Only Members can use this!]
 $title[❓ Make a Suggestion ❗]
 $description[
 > “Aha! You think you’ve a clever idea, do you?

@@ -2,7 +2,7 @@ $nomention
 $onlyForServers[1403455538460753940;I'm sorry but this command is only available for the Support server.]
 
 $deletecommand
-$onlyAdmin[⛔️ Only administrator can use this!] 
+$onlyForRoles[Member;⛔️ Only Members can use this!]
 $title[🐛 Report a Bug 🐛]
 $description[
 > If you find any errors or something not responding correctly, please let us know. 
@@ -17,4 +17,4 @@ $description[
 $color[#A1D485]
 $thumbnail[https://gyazo.com/367b0ccae54b74529406d71dd696be95.png]
 $footer[Thank you]
-$addButton[no;bug;Bug;success;no;:bug:]
+$addButton[no;bugs;Bug;success;no;:bug:]
