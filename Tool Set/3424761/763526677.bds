@@ -1,0 +1,19 @@
+$nomention
+$onlyForServers[1403455538460753940;I'm sorry but this command is only available for the Support server.]
+
+$deletecommand
+$onlyAdmin[⛔️ Only administrator can use this!] 
+$title[❓ Make a Suggestion ❗]
+$description[
+> “Aha! You think you’ve a clever idea, do you?
+> Don’t keep it locked in that thick skull 
+
+> Click the button below and jot it down!
+> Even the grandest of updates began as a humble note.”
+]
+
+
+$color[#151AB1]
+$thumbnail[https://gyazo.com/f6f8d50cf79ac18757bf547b1886121c.png]
+$footer[— The Wise Old Man, thanks you (and checks your bank for junk).]
+$addButton[no;suggestion;Suggest;primary;no;:pencil:]

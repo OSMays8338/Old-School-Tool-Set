@@ -1,0 +1,16 @@
+$if[$customID==suggestion]
+$nomention
+$ephemeral
+$newModal[suggest1;✏️ Submit a suggestion]
+$addTextInput[Suggestion;short;Suggestion;1;500;true; ;Example: a new server template or smth]
+$endif
+
+$if[$customID==suggest1]
+$nomention
+$channelSendMessage[$getServerVar[suggest];<@&1403456130943946933>]
+$sendEmbedMessage[$getServerVar[suggest];;New Suggestion!;;Author: $username
+
+Suggestion: $input[Suggestion]
+
+Their ID: $authorID;151AB1;;;;;$authorAvatar;;no;no]
+$endif

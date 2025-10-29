@@ -1,0 +1,20 @@
+$nomention
+$onlyForServers[1403455538460753940;I'm sorry but this command is only available for the Support server.]
+
+$deletecommand
+$onlyAdmin[⛔️ Only administrator can use this!] 
+$title[🐛 Report a Bug 🐛]
+$description[
+> If you find any errors or something not responding correctly, please let us know. 
+
+> Include a description of the issue 
+> &
+> How to recreate the error
+> As well as a message link to the error message
+]
+
+
+$color[#A1D485]
+$thumbnail[https://gyazo.com/367b0ccae54b74529406d71dd696be95.png]
+$footer[Thank you]
+$addButton[no;bug;Bug;success;no;:bug:]

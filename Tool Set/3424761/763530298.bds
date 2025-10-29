@@ -1,0 +1,18 @@
+$nomention
+$if[$customID==bugs]
+$nomention
+$ephemeral
+$newModal[bug1;Submit a Bug 🐛]
+$addTextInput[Bug;short;Bug;1;500;true; ;Example: a new server template or smth]
+$endif
+
+$if[$customID==bug1]
+$nomention
+$channelSendMessage[$getServerVar[bugs];<@&1403456130943946933>]
+$sendEmbedMessage[$getServerVar[bugs];;New Bug!;;Author Name: $username
+Author Nickname: $nickname
+
+Suggestion: $input[Suggestion]
+
+Their ID: $authorID;A1D485;;;;;$authorAvatar;;no;no]
+$endif
