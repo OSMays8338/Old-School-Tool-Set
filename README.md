@@ -3,11 +3,16 @@
 <details>
   <summary>Utilities</summary>
   <p align="center">
-    • Administrator Commands<br>
+    • Server Owner Commands<br>
+    • Server Setup Guide<br>
     • Server Moderation<br>
     • Clan Resources `[powered by W.O.M.]`<br>
     • Chat Leveling System<br>
-    • Economy System
+    • Economy System<br>
+    • Bank<br>
+    • Store<br>
+    • Tag System<br><br>
+    • Custom Prefix<br><br>
   </p>
 </details>
 
