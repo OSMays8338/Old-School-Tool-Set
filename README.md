@@ -1,12 +1,20 @@
 # Old School Tool Set
+
+<details>
+  <summary><b>Badges</b></summary><br>
+
+![Language](https://img.shields.io/badge/Language-.bds-6A96FC?logo=scroll&logoColor=white&labelColor=2C2F33&style=flat)<br>
 [![Version](https://img.shields.io/badge/Version-v1.0--beta-43B581?logo=git&logoColor=white&labelColor=2C2F33&style=flat)](#)<br> [![Repo Size](https://img.shields.io/github/repo-size/OSMays8338/Old-School-Tool-Set?label=Repo%20Size&logo=files&logoColor=white&color=ED4245&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set) <br>
 [![Stars](https://img.shields.io/github/stars/OSMays8338/Old-School-Tool-Set?label=Stars&logo=github&logoColor=white&color=FFD700&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set/stargazers)<br><br>
 [![Support Server](https://img.shields.io/discord/1403455538460753940?label=Support%20Server&logo=discord&logoColor=white&color=5865F2&labelColor=2C2F33&style=flat)](https://discord.gg/GXQcjh5wAm)
+</details>
+
+    
 ---
 
 <details>
-  <summary>Brought to you by:</summary>
-  <p align="center">
+  <summary><b>Brought to you by:</b></summary>
+  <p align="center"><br>
     <img src="https://gyazo.com/8b3a71f8578f3ea4061b2af4b0cecb6d.png" width="250" />
   </p> 
 </details>
@@ -20,7 +28,7 @@
 ---
 
 <details>
-  <summary>Utilities</summary>
+  <summary><b>Utilities</b></summary>
   <p align="center">
     • Server Owner Commands<br>
     • Server Setup Guide<br>
@@ -36,7 +44,7 @@
 </details>
 
 <details>
-  <summary>The Home of the Slayer Diaries</summary>
+  <summary><b>The Home of the Slayer Diaries</b></summary>
   <p align="left">
 The Slayer Diaries is a command system that provides details about your specified <b>Slayer Monster</b> on task, <br>
 Including:<br><br>
