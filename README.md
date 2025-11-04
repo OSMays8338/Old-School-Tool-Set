@@ -1,7 +1,7 @@
 # Old School Tool Set
 [![Version](https://img.shields.io/badge/Version-v1.0--beta-43B581?logo=git&logoColor=white&labelColor=2C2F33&style=flat)](#) [![Repo Size](https://img.shields.io/github/repo-size/OSMays8338/Old-School-Tool-Set?label=Repo%20Size&logo=files&logoColor=white&color=ED4245&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set) <br>
 [![Stars](https://img.shields.io/github/stars/OSMays8338/Old-School-Tool-Set?label=Stars&logo=github&logoColor=white&color=FFD700&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set/stargazers)<br><br>
-[![Discord](https://img.shields.io/discord/1403455538460753940?label=Discord&logo=discord&logoColor=white&color=5865F2&labelColor=2C2F33&style=flat)](https://discord.gg/GXQcjh5wAm)
+[![Support Server](https://img.shields.io/discord/1403455538460753940?label=Discord&logo=discord&logoColor=white&color=5865F2&labelColor=2C2F33&style=flat)](https://discord.gg/GXQcjh5wAm)
 ---
 
 <details>
@@ -75,7 +75,7 @@ This project is **unaffiliated** with Jagex, the OSRS Wiki team, Wise Old Man, o
 
 ### 🧾 License
 
-[![License: OSTS-1.1](https://img.shields.io/badge/License-OSTS--1.1%20AND%20CC--BY--SA--3.0-blue.svg)](https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE)  
+[![License](https://img.shields.io/badge/License-OSTS--1.1%20AND%20CC--BY--SA--3.0-0078D7?logo=open-source-initiative&logoColor=white&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE) 
 
 This project is licensed under the **Old School Tool Set License v1.1**,  
 with portions derived from the **Old School RuneScape Wiki** under the **CC BY-SA 3.0** license.  
