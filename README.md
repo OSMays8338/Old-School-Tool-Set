@@ -6,11 +6,13 @@
 <img src="https://gyazo.com/8b3a71f8578f3ea4061b2af4b0cecb6d.png)" /></a>   
 </p> 
 </details>
-  
+
+---
 <p align="center">
 <img src="https://gyazo.com/acd762fa87b394d707e44dbf6ccf4a58.png)" /></a>   
 </p>
 
+---
 
 <details>
   <summary>Utilities</summary>
@@ -71,6 +73,6 @@ This project is **unaffiliated** with Jagex, the OSRS Wiki team, Wise Old Man, o
 
 This project is licensed under the **Old School Tool Set License v1.1**,  
 with portions derived from the **Old School RuneScape Wiki** under the **CC BY-SA 3.0** license.  
-
+---
 **SPDX-License-Identifier:** `LicenseRef-OSMays8338-OSTS-1.1 AND CC-BY-SA-3.0`  
 © 2025 **OS-Mays8338** — All Rights Reserved
