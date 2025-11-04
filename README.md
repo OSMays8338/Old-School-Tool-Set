@@ -2,14 +2,15 @@
 
 <details>
   <summary>Brought to you by:</summary>
-<p align="center">
-<img src="https://gyazo.com/8b3a71f8578f3ea4061b2af4b0cecb6d.png)" /></a>   
-</p> 
+  <p align="center">
+    <img src="https://gyazo.com/8b3a71f8578f3ea4061b2af4b0cecb6d.png" width="250" />
+  </p> 
 </details>
 
 ---
+
 <p align="center">
-<img src="https://gyazo.com/acd762fa87b394d707e44dbf6ccf4a58.png)" /></a>   
+  <img src="https://gyazo.com/acd762fa87b394d707e44dbf6ccf4a58.png" width="250" />
 </p>
 
 ---
