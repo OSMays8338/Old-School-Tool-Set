@@ -1,6 +1,18 @@
 # Old School Tool Set
 
 <details>
+  <summary>Brought to you by:</summary>
+<p align="center">
+<img src="https://gyazo.com/8b3a71f8578f3ea4061b2af4b0cecb6d.png)" /></a>   
+</p> 
+</details>
+  
+<p align="center">
+<img src="https://gyazo.com/acd762fa87b394d707e44dbf6ccf4a58.png)" /></a>   
+</p>
+
+
+<details>
   <summary>Utilities</summary>
   <p align="center">
     • Server Owner Commands<br>
@@ -19,7 +31,7 @@
 <details>
   <summary>The Home of the Slayer Diaries</summary>
   <p align="left">
-The Slayer Diaries is a command system that provides details about your specified ***Slayer Monster*** on task, <br>
+The Slayer Diaries is a command system that provides details about your specified <b>Slayer Monster</b> on task, <br>
 Including:<br><br>
 
 🟢 Standard Monsters<br>
