@@ -7,6 +7,12 @@
 [![Version](https://img.shields.io/badge/Version-v1.0--beta-43B581?logo=git&logoColor=white&labelColor=2C2F33&style=flat)](#)<br> [![Repo Size](https://img.shields.io/github/repo-size/OSMays8338/Old-School-Tool-Set?label=Repo%20Size&logo=files&logoColor=white&color=ED4245&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set) <br>
 [![Stars](https://img.shields.io/github/stars/OSMays8338/Old-School-Tool-Set?label=Stars&logo=github&logoColor=white&color=FFD700&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set/stargazers)<br><br>
 [![Support Server](https://img.shields.io/discord/1403455538460753940?label=Support%20Server&logo=discord&logoColor=white&color=5865F2&labelColor=2C2F33&style=flat)](https://discord.gg/GXQcjh5wAm)
+
+
+<a href="https://top.gg/bot/1424876843688788080">
+  <img src="https://top.gg/api/widget/1424876843688788080.svg">
+</a>
+<a href="https://discordbotlist.com/bots/old-school-tool-set"><img src="https://discordbotlist.com/api/v1/bots/1424876843688788080/widget"></a>
 </details>
 
     
