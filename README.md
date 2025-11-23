@@ -8,7 +8,7 @@
 [![Stars](https://img.shields.io/github/stars/OSMays8338/Old-School-Tool-Set?label=Stars&logo=github&logoColor=white&color=FFD700&labelColor=2C2F33&style=flat)](https://github.com/OSMays8338/Old-School-Tool-Set/stargazers)<br><br>
 [![Support Server](https://img.shields.io/discord/1403455538460753940?label=Support%20Server&logo=discord&logoColor=white&color=5865F2&labelColor=2C2F33&style=flat)](https://discord.gg/GXQcjh5wAm)
 
-<\details>
+</details>
 
 
     
