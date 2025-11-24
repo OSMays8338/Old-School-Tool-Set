@@ -8,17 +8,29 @@ $c[─────────────────────────�
 
 $nomention
 
-$title[Vote Now]
+$title[Thank you for Voting... ]
 $description[Thank you for taking the time to vote for us. 
-It is very appreciated! ]
+It is very much appreciated! 
 
-$c[OSTS Support Server]
-$addButton[no;https://top.gg/discord/servers/765702568235892736/vote;Support Server;link;;🫶🏻;]
+### We are currently on 
+• __***Top.gg***__
+• __***Botlist.me***__ 
+&
+• __***Discord Bot List***__
+]
 
-$c[Vote for OSTS]
-$addButton[no;https://top.gg/bot/1424876843688788080?s=0195cdcd8d057;Bot;link;;🤖;]
+$color[#D8A63B]
+$thumbnail[https://gyazo.com/1a36d0eb62bad0227fb72d183e5f02a8.png]
 
-$c[Vote for Bonded4Life]
-$if[$guildID[Bonded4Life]==1398976009214230630]
-$addButton[yes;https://top.gg/discord/servers/770415141284773888/vote;Bonded4Life;link;;<:B4L:1432159536835334154>;]
-$endif
+$c[Top.gg]
+$addButton[no;https://top.gg/bot/1424876843688788080/vote;Top.gg;link;;;]
+
+$c[Botlist.me]
+$addButton[no;https://botlist.me/bots/1424876843688788080/vote;Botlist.me;link;;;]
+
+$c[Discord Bot List]
+$addButton[no;https://discordbotlist.com/bots/old-school-tool-set/upvote;Discord Bot List;link;;;]
+
+
+
+

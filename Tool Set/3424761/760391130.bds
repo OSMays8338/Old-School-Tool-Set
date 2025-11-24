@@ -11,12 +11,10 @@ $c[This command can only be used by Members.]
 $onlyForRoles[Member;:x: You need to be a Member to use this]
 
 $c[API CALL]
-$httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]]
+$httpGet[https://api.wiseoldman.net/v2/players/$getVar[RSN;$authorID]]
 
-$c[Footer]
-$thumbnail[$userAvatar[$authorID];1]
-$footer[This is only a test! $addTimestamp]
-$color[$getRoleColor[$highestRole[$authorID]]]
+$if[$httpResult[latestSnapshot]!=null]
+
 
 $c[Body]
 $title[Levels]
@@ -94,5 +92,17 @@ $addField[<:Hunter:1426867011928985651> $toUppercase[**$httpResult[latestSnapsho
 $c[Construction]
 $addField[<:Construction:1426866781049585786> $toUppercase[**$httpResult[latestSnapshot;data;skills;construction;metric]**];> $httpResult[latestSnapshot;data;skills;construction;level];true;1]
 
+$c[Construction]
+$addField[<:Sailing:1426879347247157339> $toUppercase[**$httpResult[latestSnapshot;data;skills;sailing;metric]**];> $httpResult[latestSnapshot;data;skills;sailing;level];true;1]
+
+
+$c[Footer]
+$thumbnail[$userAvatar[$authorID];1]
+$footer[$addTimestamp]
+$color[$getRoleColor[$highestRole[$authorID]]] 
 ] 
 
+$else
+> Last time we checked, this player could not be found on the hiscores. This could either be because that username is incorrect, or because the player is not yet ranked on any skill on the hiscores.
+
+$endif

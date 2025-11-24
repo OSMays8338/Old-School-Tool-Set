@@ -6,73 +6,27 @@ $c[─────────────────────────�
 $c[SPDX-License-Identifier: LicenseRef-OSMays8338-OSTS-1.1 AND CC-BY-SA-3.0]
 $c[─────────────────────────────────────────────────────────────────────────────────────────────────────]
 
+$c[Newline Variable]
+$var[\n;$url[decode;%0A]]
+
 $botListHide
 
-$if[$guildID[Bonded4Life]==true]
-$c[Newline Variable]
-$var[\n;$url[decode;%0A]]
-
-$c[Body]
-$color[#145300]
-$thumbnail[$serverIcon]
-$footer[$addTimestamp]
-
-$c[Welcome Body]
-$title[Welcome $serverName[$guildID]]
-$description[
-### Founded:
-Sep. 5th of 2025
-
-__**Bonded4Life**__
-is growing to be a thriving Community of ppl who believe in one thing
-We are Bonded4Life
-
-
-### Members, please wait for approval... 
+$nomention
+<@$authorID>
+$title[Welcome to $serverName[$guildID]'s Server]
+$description[$eval[$unescape[$getServerVar[welcomemsg]]]
 ]
 
-$c[Book of Echos Body]
-$sendEmbedMessage[1403314447430455419 ;;Sign-in;;## Book of Echos$var[\n]
+$thumbnail[$getServerVar[thumbnail]] 
+$color[$getServerVar[welcolor]]
+$footer[$getServerVar[footmsg]]
 
-__**Name**__:
-$username
-
-__**Member Count**__:
-$membersCount$var[\n];#145300;;;$addTimestamp;;$authorAvatar;;true;false] 
-
-
-$c[Add Guest Role]
-$roleGrant[$authorID;+1399139265723764776]
-$endif
+$addTimestamp
+$author[$username[$authorID]]
+$authorIcon[$authorAvatar]
 
 
 
-
-$if[$guildID[OSTS - Support]==true]
-$c[Newline Variable]
-$var[\n;$url[decode;%0A]]
-
-$c[Body]
-$color[#145300]
-$thumbnail[$serverIcon]
-$footer[$addTimestamp]
-
-$c[Welcome Body]
-$title[Welcome $serverName[$guildID]]
-$description[
-This is the Official Support Server for the Old School Tool Set (OSTS)!
-Feel free to ask for help with any issues you may be having with the Tool Set.
-You can also suggest new features or report bugs here.
-
-]
-
-__**Name**__:
-$username
-
-__**Member Count**__:
-$membersCount$var[\n];#145300;;;$addTimestamp;;$authorAvatar;;true;false] 
-
-
-$c[Add Members Role]
-$roleGrant[$authorID;+1403456706616230013]
+$if[1398976009214230630==$guildID[Bonded4Life]]
+$sendEmbedMessage[1403314447430455419;;Book of Echos;;__**Name**__:$var[\n]$username[$authorID]$var[\n]$var[\n]__**Member Count**__:$var[\n]$serverCount;$getServerVar[welcolor];;;$getServerVar[footmsg];;$authorAvatar;;yes;no]
 $endif

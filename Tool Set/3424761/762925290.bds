@@ -1,3 +1,12 @@
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────] 
+$c[Old School Tool Set License v1.1 — © 2025 OSMays8338 | All Rights Reserved]
+$c[Portions of this script may include content from the OSRS Wiki under CC BY-SA 3.0]
+$c[For full license details, see: https://github.com/OSMays8338/Old-School-Tool-Set/blob/main/LICENSE]
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────] 
+$c[SPDX-License-Identifier: LicenseRef-OSMays8338-OSTS-1.1 AND CC-BY-SA-3.0]
+$c[─────────────────────────────────────────────────────────────────────────────────────────────────────]
+
+
 $nomention
 
 $color[FF0000]
@@ -16,13 +25,13 @@ From small trinkets to mighty relics, each purchase can help grow your coffers a
 ]
 
 
-$newSelectMenu[Store;1;1;Welcome to the Store... ]
+$newSelectMenu[Store;1;1;Welcome to the Store!]
 $addSelectMenuOption[Store;This is our Menu;Menu-p1;Check out what we have. ]
 
 
 $if[$message[slayer]==true]
-$newSelectMenu[Slayer;1;1;This is the place to spend your Slayer Points... ]
-$addSelectMenuOption[Slayer;Slayer Shop;SS-p1;The Abyssal & Accursed]
+$newSelectMenu[Slayer;1;1;Slayer Shop]
+$addSelectMenuOption[Slayer;Welcome Adventurer,;SS-p1;Spend your Points here]
 $endif 
 
 $addButton[no;CloseStore;Leave;danger;;🚪;]

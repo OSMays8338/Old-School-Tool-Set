@@ -39,7 +39,7 @@ $footerIcon[https://gyazo.com/fc15153b49cdab6d7e7d00824b7e5f14.jpeg]
 $color[#A52A2A]
 $deleteIn[30s]
 
-$cooldown[60m;> You may come back in %time% minutes to receive your next task. ]
+$cooldown[60m;> You may come back in %time% to receive your next task. ]
 $endif
 
 
@@ -70,5 +70,5 @@ $footerIcon[https://gyazo.com/fc15153b49cdab6d7e7d00824b7e5f14.jpeg]
 $color[#A52A2A]
 $deleteIn[30s]
 
-$cooldown[60m;> You may come back in %time% minutes to receive your next task. ]
+$cooldown[60m;> You may come back in %time% to receive your next task. ]
 $endif

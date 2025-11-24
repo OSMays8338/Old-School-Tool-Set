@@ -14,20 +14,15 @@ Cmds are only visible up to your highest role.]
 
 $if[$hasRole[$authorID;1399092953498255460]]
  $addField[__**Owner Cmds**__;**```
-/announce
 /approval
-/ban
-/kick
-/mute
-/pardon
-/reason
-/tidy
-/unban
-/unmute
-/warn
-/say 
 /clanid
-/tidy
+/tidy 
+.swinner 
+.resetuser
+.addBankCash
+.removeBankCash
+.addPocketCash
+.removePocketCash
  ```**;false;1]
 
 $c[Footer]
@@ -39,20 +34,15 @@ $c[Footer]
 
  $if[$hasRole[$authorID;1399093247464181781]==true]
     $addField[__**Deputy Owners Cmds**__ ;**```
-/announce
 /approval
-/ban
-/kick
-/mute
-/pardon
-/reason
-/tidy
-/unban
-/unmute
-/warn
-/say 
-/clanid
-/tidy
+/tidy 
+.swinner 
+.resetuser
+.addBankCash
+.removeBankCash
+.addPocketCash
+.removePocketCash
+.swinner
  ```**;false;1]
 
 $c[Footer]
@@ -63,20 +53,10 @@ $c[Footer]
 
 $if[$hasRole[$authorID;1399096694427226122]==true]
     $addField[__**Cabinet Cmds**__;**```
-/announce
 /approval
-/ban
-/kick
-/mute
-/pardon
-/reason
-/tidy
-/unban
-/unmute
-/warn
-/say 
 /clanid
-/tidy
+/tidy 
+.swinner 
  ```**;false;1]
 
 $c[Footer]
@@ -88,21 +68,21 @@ $c[Footer]
 
 $if[$hasRole[$authorID;1399093446748405881]==true]
     $addField[__**OSTS Cmds**__;**```
-/dink 
-/fordink 
 /lvls 
-/midgame 
-/profile 
-/questreq 
+/profile  
 /rank 
-/settz 
-/signup 
-/slayer 
 /stats 
-/suggestion 
-/times 
 /uptime 
-/warnings 
+/slayer 
+!entry
+!dep
+!wd
+!task
+!lb
+!level
+!botinfo
+!rob
+!slots
  ```**;false;1]
  
 $c[Footer]
@@ -119,11 +99,9 @@ $if[$hasRole[$authorID;1399139265723764776]==true]
 __**OSTS Cmds**__;**```
 /about
 /clan
-/osrs
 /help
-/invite
 /rsn        
-/wiki 
+/wiki
  ```**;false;1]
  
 $c[Footer]

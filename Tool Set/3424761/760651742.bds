@@ -12,7 +12,7 @@ $onlyForRoles[Member;:x: You need to be a Member to use this]
 $c[Newline Variable]
 $var[\n;$url[decode;%0A]]
 
-$httpGet[https://api.wiseoldman.net/v2/players/$getUserVar[RSN;$authorID]]
+$httpGet[https://api.wiseoldman.net/v2/players/$getVar[RSN;$authorID]]
 
 
 $var[level;$httpResult[latestSnapshot;data;skills;overall;level]]
@@ -136,7 +136,7 @@ $title[Rank Request]
 $description[# Congratulations
 ### $nickname,
 > You have received the __**Bronze Bar**__ rank!
-<:BronzeBar:1426868038761713674>
+# <:BronzeBar:1426868038761713674>
 ]
 
 $c[Footer]

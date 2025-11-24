@@ -21,6 +21,7 @@ $title[Clan Information;1]
 $description[Clan Name: $httpResult[name]
 ID: $httpResult[id]
 Homeworld: $httpResult[homeworld]
+Chat Chat: Bonded4Life 
 
 Member Count: $httpResult[memberCount]
 
